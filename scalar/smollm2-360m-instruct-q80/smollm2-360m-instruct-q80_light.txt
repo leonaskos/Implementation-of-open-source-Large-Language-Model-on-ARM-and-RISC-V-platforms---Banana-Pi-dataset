@@ -1,0 +1,16 @@
+﻿llama-cli --model ~/llama.cpp/models/smollm/smollm2-360m-instruct-q8_0.gguf -p "hello welcome to my banana pi board" -st --log-verbosity 3
+
+Hi, I'm sorry to hear that you're having trouble with the banana pi board. Is everything okay with the setup or do you need some help setting it up?slot print_timing: id  0 | task 0 | 
+prompt eval time =    8654.25 ms /    37 tokens (  233.90 ms per token,     4.28 tokens per second)
+       eval time =   11696.17 ms /    35 tokens (  334.18 ms per token,     2.99 tokens per second)
+      total time =   20350.42 ms /    72 tokens
+slot      release: id  0 | task 0 | stop processing: n_tokens = 71, truncated = 0
+
+srv  update_slots: all slots are idle
+
+[ Prompt: 4.3 t/s | Generation: 3.0 t/s ]
+
+Exiting...
+llama_memory_breakdown_print: | memory breakdown [MiB] | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host               |                  801 =   366 +     320 +     114                |
+

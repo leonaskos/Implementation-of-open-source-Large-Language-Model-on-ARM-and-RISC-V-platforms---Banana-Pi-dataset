@@ -1,0 +1,1 @@
+﻿llama-cli --model ~/llama.cpp/models/qwen/Qwen3-1.7B-Q4_K_M.gguf -p "write a letter from the viewpoint of a student explaining to its teacher why an assignment is late" -st --log-verbosity 3

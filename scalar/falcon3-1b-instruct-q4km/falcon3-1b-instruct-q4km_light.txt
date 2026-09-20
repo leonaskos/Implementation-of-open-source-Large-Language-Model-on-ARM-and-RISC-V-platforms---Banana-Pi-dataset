@@ -1,0 +1,23 @@
+﻿llama-cli --model ~/llama.cpp/models/falcon/Falcon3-1B-Instruct-Q4_K_M.gguf -p "hello welcome to my banana pi board" -st --log-verbosity 3
+
+
+Hello! It looks like you've mentioned a fun and creative project involving a Banana Pi board. The Pi Model B is a popular choice for projects due to its versatility and the wide range of applications it can support, from gaming to home automation. If you're new to electronics or just starting out, it's great to hear about your enthusiasm for a project like this.
+
+A Banana Pi board typically refers to a DIY, modular, or customizable electronic platform designed to be adaptable and user-friendly. It often includes components like a microcontroller (like the Raspberry Pi), sensors, and various I/O (Input/Output) pins that can be connected to form a system.
+
+Projects like these are often exciting because they allow you to learn about electronics in a hands-on way, experiment with new technologies, and even create your own gadgets. Whether you're looking to build a simple device, a complex system, or a unique piece of art, the Pi Model B is a great starting point.
+
+If you're interested in more detailed information or tips on getting started, I'd be happy to help. Just let me know what you're working on or any specific questions you have. Happy tinkering!slot print_timing: id  0 | task 0 | 
+prompt eval time =   16177.70 ms /    19 tokens (  851.46 ms per token,     1.17 tokens per second)
+       eval time =  300629.30 ms /   254 tokens ( 1183.58 ms per token,     0.84 tokens per second)
+      total time =  316807.00 ms /   273 tokens
+slot      release: id  0 | task 0 | stop processing: n_tokens = 272, truncated = 0
+srv  update_slots: all slots are idle
+
+
+[ Prompt: 1.2 t/s | Generation: 0.8 t/s ]
+
+Exiting...
+llama_memory_breakdown_print: | memory breakdown [MiB] | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host               |                 1839 =  1003 +     576 +     260                |
+

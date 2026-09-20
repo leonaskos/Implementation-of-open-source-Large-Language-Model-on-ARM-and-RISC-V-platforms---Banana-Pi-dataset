@@ -1,0 +1,24 @@
+﻿llama-cli --model ~/llama.cpp/models/smollm/SmolLM2-135M-Instruct-Q4_K_M.gguf -p "calculate the derivative of 3x^2 +5x -7" -st --log-verbosity 3
+
+To calculate the derivative of 3x^2 +5x -7, we'll apply the power rule of differentiation, which states that if we have a function of the form f(x) = x^n, then the derivative f'(x) is given by f'(x) = n*x^(n-1).
+
+Applying the power rule, we'll differentiate 3x^2 with respect to x. The derivative of x^2 is 2x, so we'll differentiate 3x^2 with respect to x.
+
+Applying the power rule, the derivative of 5x^3 is 5*2x^(3-1) = 10x^2.
+
+The derivative of -7 is 7, so the derivative of -5x^3 is -5*7 = -35x^2.
+
+So, the derivative of 3x^2 +5x -7 is 3*10x^2 + 5*7x^2 - 35x^2.slot print_timing: id  0 | task 0 | 
+prompt eval time =    3426.21 ms /    44 tokens (   77.87 ms per token,    12.84 tokens per second)
+       eval time =   47551.09 ms /   225 tokens (  211.34 ms per token,     4.73 tokens per second)
+      total time =   50977.30 ms /   269 tokens
+slot      release: id  0 | task 0 | stop processing: n_tokens = 268, truncated = 0
+srv  update_slots: all slots are idle
+
+
+[ Prompt: 12.8 t/s | Generation: 4.7 t/s ]
+
+Exiting...
+llama_memory_breakdown_print: | memory breakdown [MiB] | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host               |                  375 =    98 +     180 +      97                |
+

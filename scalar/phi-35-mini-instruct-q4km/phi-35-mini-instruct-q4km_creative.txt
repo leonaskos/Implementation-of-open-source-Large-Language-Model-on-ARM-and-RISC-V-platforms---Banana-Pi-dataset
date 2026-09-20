@@ -1,0 +1,57 @@
+llama-cli --model ~/llama.cpp/models/phi/Phi-3.5-mini-Instruct-Q4_K_M.gguf -p "write a letter from the viewpoint of a student explaining to its teacher why an assignment is late" -st --log-verbosity 3 --ctx-size 12000
+
+
+[Your Name]
+[Your Address]
+[City, State, Zip Code]
+[Date]
+
+[Teacher's Name]
+[School Name]
+[School Address]
+[City, State, Zip Code]
+
+Dear [Teacher's Name],
+
+I hope this letter finds you well. I am writing to you regarding the assignment that was due on [Due Date], which I have not yet submitted. I sincerely apologize for the delay in turning in my work and want to explain the circumstances that have led to this situation.
+
+Firstly, I want to assure you that I take full responsibility for not meeting the deadline and understand the importance of submitting work on time. My intention was always to complete the assignment with the utmost diligence and care. However, there were unexpected and unforeseen events that significantly hindered my ability to do so.
+
+Over the past few days, I have faced several challenges that made it difficult for me to concentrate on the assignment. [Briefly explain the specific circumstances that contributed to the delay, e.g., health issues, family emergencies, technical difficulties, etc.]. I am not making excuses, but rather providing a full picture of the challenges I encountered.
+
+I am aware that my actions may have caused inconvenience to you and any potential impact on my classmates' grades, and for that, I am truly sorry. I value my education and the effort you put into our lessons, and it is not my intention to disrupt the learning process or disrespect the classroom environment.
+
+To rectify this situation, I am submitting the completed assignment now, with an understanding of the potential implications for my grade. I am requesting your consideration in evaluating the circumstances under which it was submitted late. While I am aware that late submissions are typically subject to penalties, I hope that you will take into account the extraordinary circumstances that I have faced.
+
+Additionally, I am committed to taking steps to ensure that this situation does not repeat itself in the future. To this end, I have [outline any strategies or measures you'll take to prevent similar occurrences, such as creating a personal timeline, utilizing planning tools, etc.].
+
+I deeply appreciate your understanding and am hopeful that we can move past this incident with a continued positive academic relationship. Please let me know if there are any steps I should take or if there is any further information you require from me.
+
+Thank you for your time and consideration. I am looking forward to your feedback and am eager to continue making progress in your class.
+
+Sincerely,
+
+[Your Name]
+[Student ID]
+[Class Information]
+
+P.S. I have attached the completed assignment to this letter. I trust it meets your expectations and reflects the effort and knowledge I have gained from the coursework.
+
+[Enclosures: Late Assignment Submission]
+
+---
+
+This letter attempts to communicate a student's situation in a responsible and respectful manner, acknowledging their mistake, expressing genuine reasons for the delay, and showing a commitment to moving forward constructively. It's crucial that the student maintains a tone of accountability while seeking understanding from the teacher.slot print_timing: id  0 | task 0 | 
+prompt eval time =  100018.76 ms /    28 tokens ( 3572.10 ms per token,     0.28 tokens per second)
+       eval time = 4811820.80 ms /   718 tokens ( 6701.70 ms per token,     0.15 tokens per second)
+      total time = 4911839.57 ms /   746 tokens
+slot      release: id  0 | task 0 | stop processing: n_tokens = 745, truncated = 0
+srv  update_slots: all slots are idle
+
+
+[ Prompt: 0.3 t/s | Generation: 0.1 t/s ]
+
+Exiting...
+llama_memory_breakdown_print: | memory breakdown [MiB] | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host               |                 6872 =  2281 +    4512 +      79                |
+
