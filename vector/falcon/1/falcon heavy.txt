@@ -1,0 +1,36 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/falcon/Falcon3-1B-Instruct-Q4_K_M.gguf -p "what is the meaning of life"
+
+
+*******************
+<|user|>
+what is the meaning of life<|assistant|>
+The meaning of life is a deeply philosophical question that has puzzled humanity for centuries. There is no single, universally accepted answer, as the meaning of life can vary greatly from person to person, culture to culture, and even from moment to moment. Here are some common perspectives on the meaning of life:
+
+1. **Pursuit of Happiness**: Some believe that the purpose of life is to seek and find personal happiness and fulfillment in our lives. This could mean achieving our passions, relationships, or personal goals.
+
+2. **Contribution to Others**: Others view the meaning of life as contributing to the well-being of others and the greater good. This could involve family, community, or the world at large through acts of kindness, service, and altruism.
+
+3. **Spiritual or Religious Beliefs**: For many, the meaning of life is found in spiritual or religious beliefs. This can involve a belief in a higher power, a sense of purpose through faith, or a belief in reincarnation or karma.
+
+4. **Legacy**: Some people believe the meaning of life is to leave a lasting impact or legacy on the world, whether through achievements, art, scientific discoveries, or simply by inspiring others.
+
+5. **Personal Growth**: Others argue that the meaning of life is in personal growth and self-improvement. This could mean learning new skills, gaining wisdom, or becoming a better version of oneself.
+
+6. **Experiencing the World**: A more contemporary view suggests that the meaning of life is about experiencing the world and all its joys, sorrows, and challenges. This could be in the form of travel, relationships, or simply living in the present moment.
+
+Ultimately, the meaning of life is a matter of personal belief, philosophy, and introspection. There is no one "right" answer, as it is a question that remains open to interpretation for each individual.
+
+> 
+common_perf_print:    sampling time =     643.43 ms
+common_perf_print:    samplers time =     416.86 ms /   409 tokens
+common_perf_print:        load time =   11058.28 ms
+common_perf_print: prompt eval time =     885.84 ms /    16 tokens (   55.36 ms per token,    18.06 tokens per second)
+common_perf_print:        eval time =  116483.44 ms /   392 runs   (  297.15 ms per token,     3.37 tokens per second)
+common_perf_print:       total time =  133516.12 ms /   408 tokens
+common_perf_print: unaccounted time =   15503.41 ms /  11.6 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =        390
+llama_memory_breakdown_print: | memory breakdown [MiB]   | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host                 |                 1546 =   994 +     288 +     264                |
+llama_memory_breakdown_print: |   - CPU_RISCV64_SPACEMIT |                  573 =   573 +       0 +       0                |
+Interrupted by user
+

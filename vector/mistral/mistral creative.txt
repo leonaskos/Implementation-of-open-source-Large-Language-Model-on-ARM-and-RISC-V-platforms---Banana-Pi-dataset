@@ -1,0 +1,45 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/mistral/Ministral-3-3B-Reasoning-2512-Q8_0.gguf -p "write a letter from the viewpoint of a student explaining to its teacher why an assignment is late"
+
+
+
+
+********************
+ write a letter from the viewpoint of a student explaining to its teacher why an assignment is late**Subject:** Apology for a Late Assignment and Request for Understanding
+
+**Dear [Teacher's Name],**
+
+I hope this message finds you well. I am writing to sincerely apologize for submitting my [assignment name] on [due date] late. I understand that this is not ideal, and I regret for the inconvenience it may have caused you.
+
+I have been deeply busy with [list of reasons for lateness, e.g., "work, family responsibilities, a health issue, or personal commitments"] and have struggled to find the time to complete the assignment. I want to assure you that I have not deliberately missed the deadline—instead, I have been trying to balance my workload and make it happen at my best.
+
+If possible, I would appreciate the opportunity to submit the assignment by [suggested new date, if applicable] or to discuss how to catch up and improve my time management. I am willing to work on any revisions needed to align it with the required standards. Please let me know if this is possible, and if there are any specific tasks I should prioritize to make up for the time lost.
+
+Thank you for your patience and understanding. I will make sure to plan better for future deadlines and ensure that my assignments are completed on time in the future. I also want to share that I have been reflecting on how to improve my organization and focus.
+
+**Best,**
+[Your Full Name]
+[Your Class/Section]
+[Your Name in the assignment if relevant]
+
+---
+**Tips for a good letter:**
+- Be concise but clear about your apology.
+- Avoid justifying excessively (focus on being proactive).
+- Show your willingness to improve and take responsibility.
+- Be polite and professional—avoid negative language.
+
+Would you like me to adjust this for a specific assignment or reason?
+
+> 
+common_perf_print:    sampling time =     737.63 ms
+common_perf_print:    samplers time =     452.19 ms /   390 tokens
+common_perf_print:        load time =   16815.80 ms
+common_perf_print: prompt eval time =    8582.67 ms /    21 tokens (  408.70 ms per token,     2.45 tokens per second)
+common_perf_print:        eval time =  352523.51 ms /   368 runs   (  957.94 ms per token,     1.04 tokens per second)
+common_perf_print:       total time =  379625.72 ms /   389 tokens
+common_perf_print: unaccounted time =   17781.91 ms /   4.7 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =          0
+llama_memory_breakdown_print: | memory breakdown [MiB] | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host               |                 4152 =  3474 +     416 +     262                |
+Interrupted by user
+

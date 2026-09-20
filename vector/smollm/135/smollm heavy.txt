@@ -1,0 +1,31 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/smollm/SmolLM2-135M-Instruct-Q4_K_M.gguf -p "what is the meaning of life"
+
+***************
+user
+what is the meaning of life
+assistant
+The meaning of life is a subject of philosophical inquiry and infinite debate. It's a topic of great interest and reflection, and it's a question that has puzzled philosophers, scientists, and theologians for centuries. However, the meaning of life can be understood in different ways, and there is no clear consensus among philosophers about its exact meaning.
+
+Some people believe in a personal, divine, or spiritual meaning of life, which is considered to be the most significant part of human existence. Others believe in a purely objective meaning of life, which may include a sense of purpose, fulfillment, and satisfaction with life's various aspects. In some traditions, the meaning of life may also be guided by a higher power, such as a divine or spiritual being.
+
+Philosophers have proposed various theories of the meaning of life, ranging from the idea of a moral order or a code of conduct, to the idea of a fundamental human desire or aspiration. Some believe in a higher purpose or a spiritual purpose, while others may emphasize the importance of finding meaning and purpose in daily life.
+
+From a technical perspective, the meaning of life can be understood through the lens of scientific inquiry and philosophical inquiry. The meaning of life can be understood through the lens of theology, which is concerned with the study of the meaning of God and the meaning of existence. The meaning of life can also be understood through the lens of philosophy, which is concerned with the meaning of life as a human endeavor.
+
+Ultimately, there is no definitive or definitive answer to the meaning of life. It's a subject of ongoing philosophical inquiry, with each new theory and perspective bringing new insights and perspectives into the discussion. The meaning of life is an ongoing, complex, and multifaceted issue that requires careful consideration and reflection, and it's a subject of great importance and importance as a human endeavor.
+
+> 
+common_perf_print:    sampling time =     247.99 ms
+common_perf_print:    samplers time =     163.16 ms /   389 tokens
+common_perf_print:        load time =    1735.41 ms
+common_perf_print: prompt eval time =     757.88 ms /    15 tokens (   50.53 ms per token,    19.79 tokens per second)
+common_perf_print:        eval time =   97573.85 ms /   373 runs   (  261.59 ms per token,     3.82 tokens per second)
+common_perf_print:       total time =  119843.50 ms /   388 tokens
+common_perf_print: unaccounted time =   21263.79 ms /  17.7 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =        371
+llama_memory_breakdown_print: | memory breakdown [MiB]   | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host                 |                  285 =    98 +      90 +      97                |
+llama_memory_breakdown_print: |   - CPU_RISCV64_SPACEMIT |                    8 =     8 +       0 +       0                |
+Interrupted by user
+
+

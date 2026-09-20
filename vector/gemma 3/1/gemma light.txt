@@ -1,0 +1,30 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/gemma-3/gemma-3-1b-it-Q4_K_M.gguf -p "hello welcome to my banana pi board"
+
+
+
+
+user
+hello welcome to my banana pi board
+model
+Hello there! Welcome to your Banana Pi board! 😊 
+
+It's great to have you here. What can I do for you today? Do you have any questions, or would you like to start exploring what it can do?
+
+> 
+common_perf_print:    sampling time =     164.18 ms
+common_perf_print:    samplers time =      99.81 ms /    65 tokens
+common_perf_print:        load time =    8016.22 ms
+common_perf_print: prompt eval time =    2507.80 ms /    16 tokens (  156.74 ms per token,     6.38 tokens per second)
+common_perf_print:        eval time =    9371.21 ms /    48 runs   (  195.23 ms per token,     5.12 tokens per second)
+common_perf_print:       total time =   13308.25 ms /    64 tokens
+common_perf_print: unaccounted time =    1265.06 ms /   9.5 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =         47
+llama_memory_breakdown_print: | memory breakdown [MiB]   | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host                 |                 1314 =   762 +      38 +     514                |
+llama_memory_breakdown_print: |   - CPU_RISCV64_SPACEMIT |                   79 =    79 +       0 +       0                |
+
+
+
+
+
+

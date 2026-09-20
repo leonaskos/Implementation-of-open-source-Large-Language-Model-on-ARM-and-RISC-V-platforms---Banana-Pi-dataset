@@ -1,0 +1,40 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/falcon/Falcon3-3B-Instruct-Heretic.i1-Q4_K_M.gguf -p "what is the meaning of life"
+
+
+***************
+<|user|>
+what is the meaning of life<|assistant|>
+The meaning of life is a philosophical question that has been debated by thinkers for millennia. There is no definitive answer, but various theories and interpretations can be found across different cultures and philosophical traditions. Here are a few common perspectives:
+
+1. **Existentialism:** Some existentialists, like Jean-Paul Sartre, argue that humans define their own meaning through their choices and actions. There is no inherent meaning in life, and it is up to each individual to create their purpose.
+
+2. **Karma and Duty:** In many Eastern philosophies, the meaning of life is seen through personal and collective karma and fulfilling one's duty or dharma. Actions have consequences, and the goal is to achieve liberation or enlightenment.
+
+3. **Spirituality:** For many, the meaning of life lies in a deeper spiritual journey or connection to a higher power, the universe, or nature. This might involve seeking inner peace, enlightenment, or a sense of unity with all things.
+
+4. **Eudaimonia:** This Greek concept refers to a person's well-being, flourishing, or happiness. Many argue that the meaning of life is to achieve this state through virtuous actions and fulfilling one's potential.
+
+5. **Legacy:** Some believe that the meaning of life is to leave a lasting legacy or impact on the world. This might involve making a positive difference in society, raising a meaningful family, or contributing to scientific or cultural advancements.
+
+6. **Theological Interpretations:** Many religious traditions offer their own explanations for the meaning of life, often grounded in teachings about salvation, redemption, or the afterlife. Christianity, for example, often emphasizes faith and the promise of eternal life with God.
+
+7. **Random Chance and Destiny:** Some argue that life lacks inherent meaning, and that we simply exist by chance or according to a predetermined fate. This perspective might suggest that life is a series of random events with no intrinsic purpose.
+
+8. **Existential Boredom:** Some find life uninteresting or aimless, leading them to search for meaning through personal achievements, relationships, or contributions to the world.
+
+Ultimately, the meaning of life is highly personal and subjective. Many people find their sense of purpose through a combination of these elements, or through their own unique experiences and circumstances. The quest for meaning is a continuous journey that can change over time and be influenced by personal growth, relationships, and experiences.
+
+> 
+common_perf_print:    sampling time =     842.93 ms
+common_perf_print:    samplers time =     538.51 ms /   522 tokens
+common_perf_print:        load time =   23071.71 ms
+common_perf_print: prompt eval time =    1577.19 ms /    16 tokens (   98.57 ms per token,    10.14 tokens per second)
+common_perf_print:        eval time =  248920.43 ms /   505 runs   (  492.91 ms per token,     2.03 tokens per second)
+common_perf_print:       total time =  255204.81 ms /   521 tokens
+common_perf_print: unaccounted time =    3864.27 ms /   1.5 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =        502
+llama_memory_breakdown_print: | memory breakdown [MiB]   | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host                 |                 2507 =  1893 +     352 +     262                |
+llama_memory_breakdown_print: |   - CPU_RISCV64_SPACEMIT |                 1256 =  1256 +       0 +       0                |
+Interrupted by user
+

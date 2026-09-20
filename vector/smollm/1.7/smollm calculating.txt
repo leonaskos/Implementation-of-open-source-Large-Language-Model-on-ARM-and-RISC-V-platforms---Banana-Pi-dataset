@@ -1,0 +1,36 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/smollm/smollm2-1.7b-instruct-q4_k_m.gguf -p "calculate the derivative of 3x^2 +5x -7"
+
+*******************
+user
+calculate the derivative of 3x^2 +5x -7
+assistant
+To calculate the derivative of the given function 3x^2 + 5x - 7, we will differentiate each term separately.
+
+The derivative of 3x^2 is 6x (using the power rule, which states that the derivative of x^n is n*x^(n-1)).
+
+The derivative of 5x is 5 (using the power rule, which states that the derivative of x^n is n*x^(n-1)).
+
+The derivative of a constant, in this case -7, is 0.
+
+Now, we combine these results:
+
+d(3x^2)/dx = 6x
+d(5x)/dx = 5
+d(-7)/dx = 0
+
+The final result of the derivative calculation is 6x + 5.
+
+> 
+common_perf_print:    sampling time =     118.95 ms
+common_perf_print:    samplers time =      76.79 ms /   204 tokens
+common_perf_print:        load time =   17932.25 ms
+common_perf_print: prompt eval time =    1808.91 ms /    23 tokens (   78.65 ms per token,    12.71 tokens per second)
+common_perf_print:        eval time =   67069.73 ms /   180 runs   (  372.61 ms per token,     2.68 tokens per second)
+common_perf_print:       total time =   70511.90 ms /   203 tokens
+common_perf_print: unaccounted time =    1514.30 ms /   2.1 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =        179
+llama_memory_breakdown_print: | memory breakdown [MiB]   | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host                 |                 1877 =  1005 +     768 +     104                |
+llama_memory_breakdown_print: |   - CPU_RISCV64_SPACEMIT |                  810 =   810 +       0 +       0                |
+Interrupted by user
+

@@ -1,0 +1,48 @@
+llama-cli --model ~/llama.cpp/models/deephat/DeepHat-V1-7B-Q4_K_M.gguf -p "write a letter from the viewpoint of a student explaining to its teacher why an assignment is late" -st --log-verbosity 3
+
+```python
+def explain_late_assignment():
+    """
+    Student explaining why an assignment is late
+    """
+    letter = """
+Dear Professor [Teacher's Name],
+
+I hope this message finds you well. I am writing to explain why my recent assignment was submitted late.
+
+This assignment was due on [due date] and I submitted it on [submission date]. Unfortunately, I encountered some unforeseen issues that caused me to miss the deadline.
+
+1. Technical Issues: The software required for this assignment was experiencing frequent crashes during development. This forced me to allocate significant time troubleshooting rather than focusing on the code itself.
+
+2. Time Constraints: Along with my studies, I have been involved in several projects that required my full attention. The tight deadline put additional pressure on my schedule, making it difficult to balance all responsibilities effectively.
+
+3. Personal Circumstances: My family has been going through a challenging period recently, which has been emotionally taxing. This affected my ability to focus on academic tasks consistently.
+
+I understand that deadlines are important for maintaining academic rigor. However, understanding the challenges that can arise outside of academic responsibilities is crucial for fair assessments.
+
+Would you be willing to accept this explanation and consider leniency for this instance?
+
+Thank you for your understanding.
+
+Sincerely,
+[Student's Name]
+"""
+    return letter
+
+# Example usage
+print(explain_late_assignment())
+```
+
+This Python script generates a letter explaining common reasons why a student might submit an assignment late. It can be customized by replacing placeholders with specific details about the assignment and personal circumstances.slot print_timing: id  0 | task 0 | 
+prompt eval time =  713536.56 ms /   138 tokens ( 5170.55 ms per token,     0.19 tokens per second)
+       eval time = 2535976.61 ms /   313 tokens ( 8102.16 ms per token,     0.12 tokens per second)
+      total time = 3249513.17 ms /   451 tokens
+slot      release: id  0 | task 0 | stop processing: n_tokens = 450, truncated = 0
+srv  update_slots: all slots are idle
+
+
+[ Prompt: 0.2 t/s | Generation: 0.1 t/s ]
+
+Exiting...
+llama_memory_breakdown_print: | memory breakdown [MiB] | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host               |                 7254 =  5073 +    1792 +     389                |

@@ -1,0 +1,32 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/llama/Llama-3.1-8B-Instruct-Q4_0.gguf -p "hello welcome to my banana pi board"
+
+**********
+user
+
+hello welcome to my banana pi boardassistant
+
+Hello! It's great to meet you and your Banana Pi board!
+
+What kind of projects are you working on with your Banana Pi, or what kind of help do you need? Are you using it for a specific purpose, such as:
+
+* Learning programming with Python or Linux?
+* Building a media center or Kodi device?
+* Creating a home automation system?
+* Running a web server or web development?
+
+Let me know, and I'll do my best to assist you!
+
+> 
+common_perf_print:    sampling time =     156.22 ms
+common_perf_print:    samplers time =      98.88 ms /   113 tokens
+common_perf_print:        load time =   46319.38 ms
+common_perf_print: prompt eval time =    3441.77 ms /    17 tokens (  202.46 ms per token,     4.94 tokens per second)
+common_perf_print:        eval time =  115859.83 ms /    95 runs   ( 1219.58 ms per token,     0.82 tokens per second)
+common_perf_print:       total time =  121467.15 ms /   112 tokens
+common_perf_print: unaccounted time =    2009.34 ms /   1.7 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =         94
+llama_memory_breakdown_print: | memory breakdown [MiB]   | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host                 |                 5190 =  4420 +     512 +     258                |
+llama_memory_breakdown_print: |   - CPU_RISCV64_SPACEMIT |                 3758 =  3758 +       0 +       0                |
+Interrupted by user
+

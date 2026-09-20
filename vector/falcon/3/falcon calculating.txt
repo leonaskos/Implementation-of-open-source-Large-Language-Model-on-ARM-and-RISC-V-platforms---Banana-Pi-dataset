@@ -1,0 +1,37 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/falcon/Falcon3-3B-Instruct-Heretic.i1-Q4_K_M.gguf -p "calculate the derivative of 3x^2 +5x -7"
+
+********
+<|user|>
+calculate the derivative of 3x^2 +5x -7<|assistant|>
+To calculate the derivative of the function \( f(x) = 3x^2 + 5x - 7 \), we apply the power rule for differentiation. The power rule states that if you have a function of the form \( ax^n \), its derivative is \( n \cdot a \cdot x^{n-1} \).
+
+Let's apply this rule to each term in the function:
+
+1. For the term \( 3x^2 \):
+   - The derivative is \( 2 \cdot 3 \cdot x^{2-1} = 6x \).
+
+2. For the term \( 5x \):
+   - The derivative is \( 1 \cdot 5 \cdot x^{1-1} = 5 \).
+
+3. The derivative of the constant term \(-7\) is \(0\), since the derivative of any constant is zero.
+
+Combining all these results, we get the derivative of \( f(x) = 3x^2 + 5x - 7 \) as:
+
+\[ \frac{d}{dx} (3x^2 + 5x - 7) = 6x + 5 \]
+
+So, the derivative of the function is \( 6x + 5 \).
+
+> 
+common_perf_print:    sampling time =     522.65 ms
+common_perf_print:    samplers time =     339.72 ms /   349 tokens
+common_perf_print:        load time =   22689.72 ms
+common_perf_print: prompt eval time =    2482.60 ms /    26 tokens (   95.48 ms per token,    10.47 tokens per second)
+common_perf_print:        eval time =  160876.11 ms /   322 runs   (  499.62 ms per token,     2.00 tokens per second)
+common_perf_print:       total time =  165965.62 ms /   348 tokens
+common_perf_print: unaccounted time =    2084.26 ms /   1.3 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =        320
+llama_memory_breakdown_print: | memory breakdown [MiB]   | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host                 |                 2507 =  1893 +     352 +     262                |
+llama_memory_breakdown_print: |   - CPU_RISCV64_SPACEMIT |                 1256 =  1256 +       0 +       0                |
+Interrupted by user
+

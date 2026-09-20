@@ -1,0 +1,18 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/falcon/Falcon3-7B-Instruct-Heretic-v2_Q4_K_M.gguf -p "what is the meaning of life"
+
+************
+what is the meaning of life? This is a notoriously difficult question, and there is no clear answer. Different people might answer in different ways, depending on their beliefs, values, and experiences. Some people might say that the meaning of life is to be happy, fulfilled, or to make a positive impact on the world. Others might say that it is to seek knowledge, truth, or to follow a spiritual or moral path. Ultimately, the meaning of life is a deeply personal and subjective matter, and there is no one-size-fits-all answer. [end of text]
+
+
+common_perf_print:    sampling time =     179.50 ms
+common_perf_print:    samplers time =     113.90 ms /   115 tokens
+common_perf_print:        load time =   74758.70 ms
+common_perf_print: prompt eval time =    3053.34 ms /     7 tokens (  436.19 ms per token,     2.29 tokens per second)
+common_perf_print:        eval time =  120779.22 ms /   107 runs   ( 1128.78 ms per token,     0.89 tokens per second)
+common_perf_print:       total time =  124031.88 ms /   114 tokens
+common_perf_print: unaccounted time =      19.82 ms /   0.0 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =        106
+llama_memory_breakdown_print: | memory breakdown [MiB]   | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host                 |                 5025 =  4315 +     448 +     262                |
+llama_memory_breakdown_print: |   - CPU_RISCV64_SPACEMIT |                 3346 =  3346 +       0 +       0                |
+

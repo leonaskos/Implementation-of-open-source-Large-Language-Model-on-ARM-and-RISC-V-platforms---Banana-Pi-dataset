@@ -1,0 +1,58 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/DeepSeek/DeepSeek-R1-Distill-Qwen-7B-Q4_K_M.gguf -p "write a letter from the viewpoint of a student explaining to its teacher why an assignment is late"
+
+
+*******
+write a letter from the viewpoint of a student explaining to its teacher why an assignment is late<think>
+Alright, I need to write a letter from a student's perspective explaining why an assignment was submitted late. Let me start by thinking about the structure of such a letter. Typically, it should have a proper header with the student's name, course, instructor's name, date, and the date of the letter. 
+
+First, I'll begin with a greeting, probably thanking the teacher for their prompt attention to the matter. That sets a polite tone. Next, I should explain the situation concisely but clearly. I should mention that the assignment was submitted late and briefly explain why. 
+
+Now, considering that this is from a student, I should be honest about the circumstances without making excuses. Maybe explain that they fell ill and needed medical attention, which is a common reason. It's important to include a specific date when the assignment was due and the date when it was submitted, showing the delay.
+
+I should also offer to make up any missed work and assure the teacher that it was done to the best of their ability. Ending with a polite thank you and looking forward to future assignments seems appropriate. 
+
+I should make sure the language is formal and concise, avoiding any unnecessary details. The key points to cover are: expressing the lateness, providing a valid reason, acknowledging the effort to catch up, and thanking the teacher.
+
+I should avoid any technical jargon and keep it straightforward. Also, I need to ensure that the letter flows well and each paragraph transitions smoothly into the next. 
+
+Wait, should I include how they caught up on the missed work? Yes, that's important to show accountability. So, in the letter, after explaining the lateness, they should mention that they made up the missed work promptly.
+
+Also, the tone should be respectful and not defensive. It's about explaining circumstances without making excuses. 
+
+I should check if the dates and reasons are plausible. For example, submitting an assignment a day late due to illness sounds believable. 
+
+Lastly, I'll make sure to sign off properly with the student's name and contact information. 
+
+I think that's a solid structure. Now, putting it all together in a coherent letter.
+</think>
+
+Subject: Request for Extension on Assignment Submission
+
+Dear [Teacher's Name],
+
+I hope this message finds you well. I am writing to inform you that I submitted Assignment 2 a few days late. Unfortunately, I fell ill towards the end of the week, which necessitated my medical attention. This unexpected situation prevented me from handing in the assignment on time.
+
+I understand that this was an unforeseeable circumstance, and I sincerely apologize for any inconvenience this may have caused. I have made it a priority to catch up on all missed work and am currently working on any additional tasks required to complete the assignment.
+
+Please rest assured that I have made the necessary arrangements to submit the assignment by the due date. I will ensure to be prompt in the future and take all necessary steps to avoid similar issues.
+
+Thank you once again for your understanding and consideration. I look forward to the opportunity to contribute to our class in the coming assignments.
+
+Warm regards,
+
+[Your Name]
+
+> 
+common_perf_print:    sampling time =    1211.18 ms
+common_perf_print:    samplers time =     768.30 ms /   654 tokens
+common_perf_print:        load time =   76199.24 ms
+common_perf_print: prompt eval time =    6295.66 ms /    21 tokens (  299.79 ms per token,     3.34 tokens per second)
+common_perf_print:        eval time =  704622.27 ms /   632 runs   ( 1114.91 ms per token,     0.90 tokens per second)
+common_perf_print:       total time =  721993.07 ms /   653 tokens
+common_perf_print: unaccounted time =    9863.95 ms /   1.4 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =        629
+llama_memory_breakdown_print: | memory breakdown [MiB]   | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host                 |                 4952 =  4424 +     224 +     304                |
+llama_memory_breakdown_print: |   - CPU_RISCV64_SPACEMIT |                 3307 =  3307 +       0 +       0                |
+Interrupted by user
+

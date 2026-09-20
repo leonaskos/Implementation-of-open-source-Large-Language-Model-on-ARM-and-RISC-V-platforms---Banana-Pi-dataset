@@ -1,0 +1,19 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/falcon/Falcon3-7B-Instruct-Heretic-v2_Q4_K_M.gguf -p "hello welcome to my banana pi board"
+
+***********
+hello welcome to my banana pi board
+ [end of text]
+
+
+common_perf_print:    sampling time =       5.57 ms
+common_perf_print:    samplers time =       2.29 ms /    10 tokens
+common_perf_print:        load time =   74408.51 ms
+common_perf_print: prompt eval time =    2994.41 ms /     8 tokens (  374.30 ms per token,     2.67 tokens per second)
+common_perf_print:        eval time =    1011.44 ms /     1 runs   ( 1011.44 ms per token,     0.99 tokens per second)
+common_perf_print:       total time =    4017.03 ms /     9 tokens
+common_perf_print: unaccounted time =       5.63 ms /   0.1 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =          0
+llama_memory_breakdown_print: | memory breakdown [MiB]   | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host                 |                 5025 =  4315 +     448 +     262                |
+llama_memory_breakdown_print: |   - CPU_RISCV64_SPACEMIT |                 3346 =  3346 +       0 +       0                |
+

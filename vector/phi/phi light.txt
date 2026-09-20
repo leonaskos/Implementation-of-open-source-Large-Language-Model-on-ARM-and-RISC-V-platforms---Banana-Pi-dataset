@@ -1,0 +1,26 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/phi/Phi-3.5-mini-Instruct-Q4_K_M.gguf -p "hello welcome to my banana pi board"
+
+
+
+
+
+**
+ 
+hello welcome to my banana pi board 
+ 
+Hello and welcome to my banana pi board! If you have any questions or need assistance with anything related to banana pi (which might refer to a banana-flavored dessert or a playful term for a banana-based recipe or culinary topic), feel free to ask. Here, we can explore creative banana recipes, share tips, and discuss the wonders of bananas in cooking. Let's get started! What's on your mind regarding bananas today?
+
+> 
+common_perf_print:    sampling time =      52.97 ms
+common_perf_print:    samplers time =      36.03 ms /   124 tokens
+common_perf_print:        load time =   25546.50 ms
+common_perf_print: prompt eval time =    6231.29 ms /    17 tokens (  366.55 ms per token,     2.73 tokens per second)
+common_perf_print:        eval time =   98834.82 ms /   106 runs   (  932.40 ms per token,     1.07 tokens per second)
+common_perf_print:       total time =  123933.89 ms /   123 tokens
+common_perf_print: unaccounted time =   18814.82 ms /  15.2 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =        105
+llama_memory_breakdown_print: | memory breakdown [MiB]   | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host                 |                 3889 =  2281 +    1536 +      72                |
+llama_memory_breakdown_print: |   - CPU_RISCV64_SPACEMIT |                 1380 =  1380 +       0 +       0                |
+Interrupted by user
+

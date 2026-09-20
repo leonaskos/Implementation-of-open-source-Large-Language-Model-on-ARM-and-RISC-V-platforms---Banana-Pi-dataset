@@ -1,0 +1,32 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/gemma-3/gemma-3-270m-Q8_0.gguf -p "write a letter from the viewpoint of a student explaining to its teacher why an assignment is late"
+
+
+*********
+write a letter from the viewpoint of a student explaining to its teacher why an assignment is late and what the consequences would be.
+
+1. In a sentence, explain the assignment to the teacher.
+
+2. What will the teacher do with your homework?
+
+3. How will you respond to the teacher?
+
+4. How will you cope with the consequences?
+
+5. How will you deal with the consequences?
+
+6. What will happen to me if the teacher does not give me a homework assignment?
+
+Write an essay about your school and its lessons and how you want to use your talents to improve them. [end of text]
+
+
+common_perf_print:    sampling time =     357.13 ms
+common_perf_print:    samplers time =     229.74 ms /   127 tokens
+common_perf_print:        load time =    3888.08 ms
+common_perf_print: prompt eval time =     452.21 ms /    19 tokens (   23.80 ms per token,    42.02 tokens per second)
+common_perf_print:        eval time =    9914.01 ms /   107 runs   (   92.65 ms per token,    10.79 tokens per second)
+common_perf_print:       total time =   10741.36 ms /   126 tokens
+common_perf_print: unaccounted time =      18.01 ms /   0.2 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =        106
+llama_memory_breakdown_print: | memory breakdown [MiB] | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host               |                  812 =   271 +      27 +     513                |
+

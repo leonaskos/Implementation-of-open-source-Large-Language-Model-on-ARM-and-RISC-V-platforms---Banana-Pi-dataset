@@ -1,0 +1,49 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/smollm/SmolLM2-135M-Instruct-Q4_K_M.gguf -p "write a letter from the viewpoint of a student explaining to its teacher why an assignment is late"
+
+
+****
+user
+write a letter from the viewpoint of a student explaining to its teacher why an assignment is late
+assistant
+Dear Dr. Patel,
+
+I hope this email finds you well. My name is Alex Jenkins, and I am a 2nd-year student in your esteemed university. I am writing to you today to let you know that I have received a letter from a colleague, Alex Thompson, who claims to have missed a deadline for an assignment due to unforeseen circumstances.
+
+The letter was sent via email and is now waiting for your response. I have reviewed the letter multiple times since it was sent, and I must say, I find it to be a bit of an interesting and challenging case.
+
+The letter states that Alex Thompson is responsible for completing the assignment, and that he is unable to complete it due to unforeseen circumstances. The circumstances that led to this situation are described, and Alex claims that he was unable to complete the assignment due to a lack of relevant materials or resources.
+
+However, it appears that Alex's problem may have been a matter of incomplete knowledge or inadequate preparation. I believe that Alex's lack of attention to detail and failure to follow through with the assignment may have been a key factor contributing to the delay.
+
+I have been a student of your institution for several years, and I have learned firsthand the importance of punctuality and adherence to assignments. If I were to accept this assignment, I would need to provide a detailed explanation of the circumstances and the steps I would take to ensure its completion.
+
+I understand that you have a responsibility to ensure the completion of assignments, and I believe that your guidance and support will be invaluable in helping me to navigate this situation.
+
+Thank you for your time and consideration. I look forward to your response.
+
+Sincerely,
+Alex Jenkins
+
+The letter is a complex case, but I am confident that Alex Thompson is not only a diligent student, but also a thorough and thorough employee who has taken ownership of this assignment. His lack of attention to detail and failure to follow through on the assignment have been a contributing factor to the delay. If Alex's issue were not related to incomplete knowledge or inadequate preparation, it's possible that the assignment was simply not completed due to unforeseen circumstances.
+
+If I were to accept this assignment, I would need to provide a detailed explanation of the circumstances and the steps I would take to ensure the completion of the assignment, including the preparation of necessary materials and the submission of the required materials. This would require my continued attention and dedication to the assignment, which is crucial for the success of this course.
+
+Thank you again for your guidance and support. I look forward to the opportunity to receive your feedback and guidance.
+
+Best regards,
+Alex Jenkins
+
+> 
+common_perf_print:    sampling time =     359.68 ms
+common_perf_print:    samplers time =     235.74 ms /   572 tokens
+common_perf_print:        load time =    2084.14 ms
+common_perf_print: prompt eval time =     601.17 ms /    27 tokens (   22.27 ms per token,    44.91 tokens per second)
+common_perf_print:        eval time =  137714.60 ms /   544 runs   (  253.15 ms per token,     3.95 tokens per second)
+common_perf_print:       total time =  148301.84 ms /   571 tokens
+common_perf_print: unaccounted time =    9626.39 ms /   6.5 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =        541
+llama_memory_breakdown_print: | memory breakdown [MiB]   | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host                 |                  285 =    98 +      90 +      97                |
+llama_memory_breakdown_print: |   - CPU_RISCV64_SPACEMIT |                    8 =     8 +       0 +       0                |
+Interrupted by user
+

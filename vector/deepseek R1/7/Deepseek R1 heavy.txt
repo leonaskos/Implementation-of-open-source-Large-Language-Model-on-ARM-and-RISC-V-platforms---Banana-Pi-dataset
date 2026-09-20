@@ -1,0 +1,40 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/DeepSeek/DeepSeek-R1-Distill-Qwen-7B-Q4_K_M.gguf -p "what is the meaning of life"
+
+
+***************
+what is the meaning of life<think>
+Okay, so I'm trying to figure out what the meaning of life means. I've heard different things from different people, but I'm not sure what's really the case. Let me start by thinking about what it means. Maybe it's about purpose or happiness? But then I think about how everyone's idea of meaning is different because everyone's experiences are different.
+
+So, some people might feel their meaning is tied to their careers or family. Others might find it in religion or spirituality. There's also the idea of giving back to the community or helping others. I've also heard that some people find meaning in personal growth or discovering their passions.
+
+But wait, is there a universal meaning of life? Like, is there one right answer? Or is it completely subjective? I think it's subjective because everyone's life is different. So, the meaning of life is probably unique to each individual based on their own experiences, beliefs, and circumstances.
+
+I wonder if there's a way to find our own meaning. Maybe through self-reflection or by aligning our actions with what we believe in. But I'm not sure how to do that. Maybe people use different methods like meditation, journaling, or seeking guidance from others.
+
+I also recall that some religions or philosophies offer teachings about life's meaning. For example, Buddhism talks about the cycle of life and suffering, and seeking enlightenment. Christianity might focus on eternal life or loving others. These can provide a framework for finding meaning.
+
+But then, what if someone doesn't fit into any of these categories? How do they find meaning? Maybe through a mix of different aspects, like their relationships, work, and personal passions. It seems like a combination of factors can contribute to an individual's sense of purpose.
+
+I also think about how life is a journey. Maybe the meaning comes from experiencing the journey itself, the growth, the learning, and the relationships formed along the way. So, it's not just the destination but the experience of getting there.
+
+But then, what happens when someone feels like they don't have a purpose? Does that mean there's no meaning, or is it just a temporary phase? I guess it's possible to question our sense of meaning at times, but that doesn't necessarily mean it's gone.
+
+In summary, the meaning of life seems to be something each person has to figure out themselves. It's influenced by their beliefs, experiences, relationships, and aspirations. There's no one-size-fits-all answer, and it's okay to evolve over time as life changes.
+</think>
+
+The meaning of life is a deeply personal and subjective concept, varying greatly from person to person. It is shaped by individual experiences, beliefs, and circumstances, often emerging from a combination of factors such as relationships, career, spirituality, and personal growth. While there is no universal answer, many find meaning through self-reflection, seeking guidance, or aligning their actions with their values. The journey of life itself is often seen as a path of continuous growth and learning, providing purpose and fulfillment through the experiences and relationships formed. Ultimately, the meaning of life is something each person must discover for themselves, as it is deeply personal and can evolve over time.
+
+> 
+common_perf_print:    sampling time =    1237.92 ms
+common_perf_print:    samplers time =     788.93 ms /   661 tokens
+common_perf_print:        load time =   76562.18 ms
+common_perf_print: prompt eval time =    3447.27 ms /     9 tokens (  383.03 ms per token,     2.61 tokens per second)
+common_perf_print:        eval time =  737632.05 ms /   651 runs   ( 1133.08 ms per token,     0.88 tokens per second)
+common_perf_print:       total time =  760591.08 ms /   660 tokens
+common_perf_print: unaccounted time =   18273.84 ms /   2.4 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =        648
+llama_memory_breakdown_print: | memory breakdown [MiB]   | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host                 |                 4952 =  4424 +     224 +     304                |
+llama_memory_breakdown_print: |   - CPU_RISCV64_SPACEMIT |                 3307 =  3307 +       0 +       0                |
+Interrupted by user
+

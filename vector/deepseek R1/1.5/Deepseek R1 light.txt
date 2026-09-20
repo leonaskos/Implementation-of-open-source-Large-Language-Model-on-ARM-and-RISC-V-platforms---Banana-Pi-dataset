@@ -1,0 +1,23 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/DeepSeek/DeepSeek-R1-Distill-Qwen-1.5B-Q4_K_M.gguf -p "hello welcome to my banana pi board"
+
+**************
+hello welcome to my banana pi board<think>
+
+</think>
+
+Hello! It looks like you're joining the Banana Pi community. How are you doing? 😊
+
+> 
+common_perf_print:    sampling time =      48.99 ms
+common_perf_print:    samplers time =      30.27 ms /    35 tokens
+common_perf_print:        load time =   13137.50 ms
+common_perf_print: prompt eval time =     744.56 ms /    10 tokens (   74.46 ms per token,    13.43 tokens per second)
+common_perf_print:        eval time =    7131.51 ms /    24 runs   (  297.15 ms per token,     3.37 tokens per second)
+common_perf_print:       total time =   10982.15 ms /    34 tokens
+common_perf_print: unaccounted time =    3057.09 ms /  27.8 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =         23
+llama_memory_breakdown_print: | memory breakdown [MiB]   | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host                 |                 1467 =  1052 +     112 +     302                |
+llama_memory_breakdown_print: |   - CPU_RISCV64_SPACEMIT |                  662 =   662 +       0 +       0                |
+Interrupted by user
+

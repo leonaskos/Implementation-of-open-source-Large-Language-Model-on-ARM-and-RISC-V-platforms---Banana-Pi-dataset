@@ -1,0 +1,23 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/cogito/cogito-v1-preview-llama-3B-Q4_K_M.gguf -p "hello welcome to my banana pi board"
+
+*************
+user
+
+hello welcome to my banana pi boardassistant
+
+Hello! I'd love to help you with your Banana Pi board. Banana Pi boards are single-board computers based on the ARM Cortex-A or ARM Cortex-B architecture. They're popular in embedded systems, IoT projects, and home automation. What kind of support or assistance can I provide for your Banana Pi board today?
+
+> 
+common_perf_print:    sampling time =     103.23 ms
+common_perf_print:    samplers time =      65.04 ms /    81 tokens
+common_perf_print:        load time =   26769.63 ms
+common_perf_print: prompt eval time =    2138.78 ms /    17 tokens (  125.81 ms per token,     7.95 tokens per second)
+common_perf_print:        eval time =   34351.19 ms /    63 runs   (  545.26 ms per token,     1.83 tokens per second)
+common_perf_print:       total time =   38153.83 ms /    80 tokens
+common_perf_print: unaccounted time =    1560.63 ms /   4.1 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =         62
+llama_memory_breakdown_print: | memory breakdown [MiB]   | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host                 |                 2820 =  2116 +     448 +     256                |
+llama_memory_breakdown_print: |   - CPU_RISCV64_SPACEMIT |                 1443 =  1443 +       0 +       0                |
+Interrupted by user
+

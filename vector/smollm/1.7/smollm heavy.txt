@@ -1,0 +1,31 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/smollm/smollm2-1.7b-instruct-q4_k_m.gguf -p "what is the meaning of life"
+
+
+***
+user
+what is the meaning of life
+assistant
+The meaning of life is a question that has puzzled philosophers, theologians, and scientists for centuries. It is a concept that has been debated and explored in various forms, from ancient Greek philosophy to modern physics and spirituality.
+
+While there may be different perspectives on the meaning of life, many people believe that it is a personal and subjective concept that can be discovered through individual experiences, relationships, and exploration. Some common ideas about the meaning of life include:
+
+Living a life of purpose and meaning, contributing to the well-being of others, and finding fulfillment in work, relationships, or other activities. Finding joy, happiness, and contentment in life, regardless of external circumstances.
+
+The meaning of life is often thought to be unique to each person and can vary greatly from one individual to another. Ultimately, the meaning of life is a question that requires personal reflection and introspection to discover.
+
+If you'd like to explore the concept of meaning in life further, I can provide more information on the different philosophical perspectives on the topic or offer suggestions for how to discover your own personal meaning.
+
+> 
+common_perf_print:    sampling time =     146.95 ms
+common_perf_print:    samplers time =      96.04 ms /   238 tokens
+common_perf_print:        load time =   14357.83 ms
+common_perf_print: prompt eval time =    1176.39 ms /    15 tokens (   78.43 ms per token,    12.75 tokens per second)
+common_perf_print:        eval time =   81411.20 ms /   222 runs   (  366.72 ms per token,     2.73 tokens per second)
+common_perf_print:       total time =   84204.76 ms /   237 tokens
+common_perf_print: unaccounted time =    1470.22 ms /   1.7 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =        221
+llama_memory_breakdown_print: | memory breakdown [MiB]   | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host                 |                 1877 =  1005 +     768 +     104                |
+llama_memory_breakdown_print: |   - CPU_RISCV64_SPACEMIT |                  810 =   810 +       0 +       0                |
+Interrupted by user
+

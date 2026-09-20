@@ -1,0 +1,38 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/cogito/cogito-v1-preview-llama-3B-Q4_K_M.gguf -p "what is the meaning of life"
+
+
+*********************
+user
+
+what is the meaning of lifeassistant
+
+The question of the meaning of life is one of humanity's oldest and most fundamental philosophical inquiries. There is no single, universally agreed-upon answer, as it has been explored through various philosophical, religious, and cultural lenses throughout history.
+
+Some common perspectives include:
+
+1. Religious views: Many religions propose that the meaning of life lies in serving a higher power or following religious teachings, which may lead to spiritual fulfillment and purpose.
+
+2. Humanistic perspectives: Some philosophers and thinkers argue that the meaning of life lies in living according to human values, contributing to human progress, and seeking to improve the human condition.
+
+3. Existentialist views: This philosophical perspective suggests that individuals must create their own meaning through their experiences, choices, and actions.
+
+4. Scientific perspectives: From a biological standpoint, life's purpose might be seen as ensuring the survival and reproduction of individuals and species.
+
+5. Philosophical perspectives: Various philosophical schools have proposed different interpretations, including nihilism (the belief that life has no inherent meaning), hedonism (seeking pleasure), and various forms of moralism (living according to ethical principles).
+
+Ultimately, the meaning of life is a deeply personal question that each individual must answer for themselves based on their own experiences, beliefs, and values.
+
+> 
+common_perf_print:    sampling time =     412.37 ms
+common_perf_print:    samplers time =     263.17 ms /   270 tokens
+common_perf_print:        load time =   26602.80 ms
+common_perf_print: prompt eval time =    1879.11 ms /    16 tokens (  117.44 ms per token,     8.51 tokens per second)
+common_perf_print:        eval time =  145561.21 ms /   253 runs   (  575.34 ms per token,     1.74 tokens per second)
+common_perf_print:       total time =  156826.78 ms /   269 tokens
+common_perf_print: unaccounted time =    8974.10 ms /   5.7 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =        251
+llama_memory_breakdown_print: | memory breakdown [MiB]   | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host                 |                 2820 =  2116 +     448 +     256                |
+llama_memory_breakdown_print: |   - CPU_RISCV64_SPACEMIT |                 1443 =  1443 +       0 +       0                |
+Interrupted by user
+

@@ -1,0 +1,44 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/qwen/Qwen3-0.6B-Q8_0.gguf -p "what is the meaning of life"
+
+
+
+user
+what is the meaning of life
+assistant
+<think>
+Okay, the user asked, "What is the meaning of life?" Hmm, that's a really big question. First, I need to consider different perspectives. From a philosophical standpoint, there's no single answer, but common themes include purpose, meaning, fulfillment, love, connection, and creativity.
+
+Maybe I should start by acknowledging that there's no one-size-fits-all answer. Then, list some possible meanings and explain why they matter. It's important to mention that the meaning can vary based on individual beliefs and experiences. Also, encourage the user to reflect on their own values and find what resonates with them.
+
+I should avoid making it too long, keep it conversational, and make sure the response is clear and engaging. Let me structure it in a way that's easy to follow, maybe with bullet points or a numbered list. Also, add a friendly closing to keep the conversation going.
+</think>
+
+The question of "What is the meaning of life" is deeply personal and can vary widely depending on cultural, philosophical, and individual perspectives. Here are some common themes and meanings that people often explore:
+
+1. **Purpose and Meaning**: Many find meaning in contributing to something greater, helping others, or achieving personal growth. It can also involve love, creativity, or pursuing passions.
+
+2. **Fulfillment**: Some seek fulfillment in relationships, careers, or personal achievements, while others may value personal freedom or self-discovery.
+
+3. **Connection**: The desire to connect with others, to understand the world, or to contribute to a larger community can be central to life’s meaning.
+
+4. **Love and Relationships**: Love, companionship, and bonds with others are often seen as key to life’s meaning.
+
+5. **Creativity and Innovation**: Innovation and art can be seen as ways to express one’s uniqueness.
+
+6. **Existential Search**: For many, the search for meaning is part of a lifelong process of self-discovery and reflection.
+
+**Note**: The meaning of life varies greatly. What resonates with one individual may not resonate with another. Ultimately, it’s up to each person to define their own purpose. Let me know if you’d like to explore a specific angle!
+
+> 
+common_perf_print:    sampling time =     843.77 ms
+common_perf_print:    samplers time =     544.77 ms /   463 tokens
+common_perf_print:        load time =    2813.39 ms
+common_perf_print: prompt eval time =     856.75 ms /    14 tokens (   61.20 ms per token,    16.34 tokens per second)
+common_perf_print:        eval time =   63837.47 ms /   448 runs   (  142.49 ms per token,     7.02 tokens per second)
+common_perf_print:       total time =   68723.59 ms /   462 tokens
+common_perf_print: unaccounted time =    3185.60 ms /   4.6 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =        446
+llama_memory_breakdown_print: | memory breakdown [MiB] | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host               |                 1358 =   604 +     448 +     306                |
+Interrupted by user
+

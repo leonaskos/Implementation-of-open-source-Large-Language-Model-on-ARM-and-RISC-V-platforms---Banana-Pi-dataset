@@ -1,0 +1,49 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/falcon/Falcon3-1B-Instruct-Q4_K_M.gguf -p "write a letter from the viewpoint of a student explaining to its teacher why an assignment is late"
+
+
+**************************
+<|user|>
+write a letter from the viewpoint of a student explaining to its teacher why an assignment is late<|assistant|>
+Subject: A Matter of Timely Submission
+
+Dear [Teacher's Name],
+
+I hope this message finds you well. I wanted to take a moment to discuss the assignment due date and why it has been late.
+
+As you may recall from our recent discussions, the assignment on [Assignment Name] is due on [Late Date]. The initial deadline for this task was set to be [Late Deadline]. However, due to unforeseen circumstances, the submission of this assignment has been delayed by [Reason for Delay].
+
+This delay has been particularly concerning because it directly impacts our progress on other assignments that we have been working on. The cumulative impact of this delay on our overall grade is significant, and I am acutely aware of the importance of meeting deadlines to maintain academic integrity and to ensure that we are fully prepared for upcoming assessments.
+
+I understand that the situation may have been beyond our control and I am genuinely sorry for the inconvenience it has caused. However, I firmly believe that there are viable alternatives that could help alleviate this issue.
+
+1. **Contact the Class:** I have reached out to the class to discuss possible solutions and see if there are any temporary accommodations or adjustments that could be made. I believe that by communicating with the instructor and the class, we may be able to find a resolution that accommodates our needs without compromising our academic responsibilities.
+
+2. **Seek Support:** I am reaching out to the school counseling office to explore additional resources or support that might help me manage this situation more effectively. They may be able to offer guidance on how to prioritize tasks or seek additional assistance if necessary.
+
+3. **Time Management Strategies:** I am considering implementing new time management strategies to ensure that I am more prepared for future assignments and can better handle the time required for the current task. This could include setting specific times for study, breaking down the assignment into manageable parts, and utilizing tools such as planners or digital apps to track progress.
+
+I am committed to making the most of this opportunity and believe that by taking proactive steps, we can work together to find a solution that is fair to both me and the class. I am open to any suggestions or alternatives you might have and am willing to collaborate in finding a path forward.
+
+Thank you for your understanding and patience. I look forward to your thoughts and any ideas you may have to address this situation.
+
+Warm regards,
+
+[Your Name]
+
+[Your Student ID/Class Number]
+[Your Contact Information]
+
+> 
+common_perf_print:    sampling time =     867.60 ms
+common_perf_print:    samplers time =     553.87 ms /   549 tokens
+common_perf_print:        load time =   14692.79 ms
+common_perf_print: prompt eval time =    1503.21 ms /    28 tokens (   53.69 ms per token,    18.63 tokens per second)
+common_perf_print:        eval time =  151990.20 ms /   520 runs   (  292.29 ms per token,     3.42 tokens per second)
+common_perf_print:       total time =  156126.84 ms /   548 tokens
+common_perf_print: unaccounted time =    1765.82 ms /   1.1 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =        517
+llama_memory_breakdown_print: | memory breakdown [MiB]   | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host                 |                 1546 =   994 +     288 +     264                |
+llama_memory_breakdown_print: |   - CPU_RISCV64_SPACEMIT |                  573 =   573 +       0 +       0                |
+Interrupted by user
+

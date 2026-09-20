@@ -1,0 +1,41 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/mistral/Ministral-3-3B-Reasoning-2512-Q8_0.gguf -p "hello welcome to my banana pi board"
+
+
+
+
+******
+ hello welcome to my banana pi boardHello! 🍌 Welcome to your **Banana Pi** board! 🍌
+
+Are you looking for help with a specific model, software, or project? Let me know, and I’ll do my best to assist you. Here’s a quick overview of some popular Banana Pi models and features:
+
+- **Banana Pi (BPI)** – The original 1U Linux single-board computer (SBC) with a Pi 3, 4, or 5.
+- **Banana Pi Zero (BPI-Z)** – A lightweight, Wi-Fi/Bluetooth-enabled SBC for small projects.
+- **Banana Pi M2** – The second-gen version with a more powerful CPU and GPU, supporting a wider range of applications.
+- **Banana Pi M2+, M3, M3+, M4, M4+** – Even more advanced models with better performance, multiple ports, and more connectivity options.
+- **Banana Pi Mini (BPI-M)** – A smaller, budget-friendly version of the M2/Zero with more performance for IoT and embedded projects.
+
+### Common Use Cases:
+- **Home server / NAS** – File sharing, media center, etc.
+- **Retro gaming / Homebrew** – Playing games on Linux, running emulators, or customizing the system.
+- **Internet of Things (IoT)** – Building smart devices with sensors and actuators.
+- **Kiosk / Educational projects** – Simple displays, custom software, etc.
+
+### Need Help? Try These:
+1. **Installation** – Check if your model is compatible with the latest RPiOS (Raspberry Pi OS) or custom distros.
+2. **Hardware setup** – Connecting USB devices, GPIO, or networking (Ethernet, Wi-Fi, or serial).
+3. **Software** – Getting the latest firmware, or choosing a suitable OS (e.g., **Raspberry Pi OS, Arch Linux, Alpine, or Rocker**).
+4. **Troubleshooting** – Common issues like `bash: 4.3.20: command not found`, USB not working, etc.
+
+> 
+common_perf_print:    sampling time =     799.65 ms
+common_perf_print:    samplers time =     533.54 ms /   453 tokens
+common_perf_print:        load time =    5127.08 ms
+common_perf_print: prompt eval time =    4248.88 ms /    10 tokens (  424.89 ms per token,     2.35 tokens per second)
+common_perf_print:        eval time =  415572.08 ms /   442 runs   (  940.21 ms per token,     1.06 tokens per second)
+common_perf_print:       total time =  446753.70 ms /   452 tokens
+common_perf_print: unaccounted time =   26133.09 ms /   5.8 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =          0
+llama_memory_breakdown_print: | memory breakdown [MiB] | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host               |                 4152 =  3474 +     416 +     262                |
+Interrupted by user
+

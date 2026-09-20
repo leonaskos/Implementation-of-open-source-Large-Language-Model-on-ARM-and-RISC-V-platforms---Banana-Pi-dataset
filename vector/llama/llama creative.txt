@@ -1,0 +1,40 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/llama/Llama-3.1-8B-Instruct-Q4_0.gguf -p "write a letter from the viewpoint of a student explaining to its teacher why an assignment is late"
+
+
+********************
+user
+
+write a letter from the viewpoint of a student explaining to its teacher why an assignment is lateassistant
+
+Here is a sample letter:
+
+Dear [Teacher's Name],
+
+I hope this letter finds you well. I wanted to reach out to you regarding the [assignment/project name] that was due on [original due date]. I know that I missed the deadline and I want to take a moment to apologize for the delay.
+
+Unfortunately, I experienced an unexpected situation that prevented me from completing the assignment on time. On [day], I was involved in an [explain the situation, e.g. family emergency, school event, technical issue with a resource, etc.] that took up a lot of my time and energy. As a result, I was unable to work on the assignment until [date], which is why it is now late.
+
+I have been working diligently to complete the assignment as soon as possible, and I am pleased to report that it is now finished. I have attached the completed work to this letter for your review. I understand that it is not ideal to have missed the deadline, but I hope you can accept my apology and consider the circumstances that led to the delay.
+
+If there is anything I can do to rectify the situation or if you need any further clarification, please let me know. I am committed to doing my best and making up for the lost time.
+
+Thank you for your understanding and I look forward to discussing this further if necessary.
+
+Sincerely,
+[Your Name]
+
+> 
+common_perf_print:    sampling time =     445.53 ms
+common_perf_print:    samplers time =     289.04 ms /   308 tokens
+common_perf_print:        load time =   46385.07 ms
+common_perf_print: prompt eval time =    4942.17 ms /    28 tokens (  176.51 ms per token,     5.67 tokens per second)
+common_perf_print:        eval time =  348865.89 ms /   279 runs   ( 1250.42 ms per token,     0.80 tokens per second)
+common_perf_print:       total time =  359876.21 ms /   307 tokens
+common_perf_print: unaccounted time =    5622.61 ms /   1.6 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =        277
+llama_memory_breakdown_print: | memory breakdown [MiB]   | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host                 |                 5190 =  4420 +     512 +     258                |
+llama_memory_breakdown_print: |   - CPU_RISCV64_SPACEMIT |                 3758 =  3758 +       0 +       0                |
+Interrupted by user
+
+

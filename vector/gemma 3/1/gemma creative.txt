@@ -1,0 +1,107 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/gemma-3/gemma-3-1b-it-Q4_K_M.gguf -p "write a letter from the viewpoint of a student explaining to its teacher why an assignment is late"
+
+user
+write a letter from the viewpoint of a student explaining to its teacher why an assignment is late
+model
+Okay, here are a few drafts of a letter from a student explaining an assignment is late, with varying levels of formality and detail. Choose the one that best suits your teacher and the situation:
+
+**Option 1: Formal & Detailed (Good for a more serious teacher or a complex assignment)**
+
+[Your Address]
+[Your Phone Number]
+[Your Email Address]
+
+[Date]
+
+Mr./Ms. [Teacher's Last Name]
+[Teacher's Title]
+[Class Name]
+[School Name]
+[School Address]
+
+Subject: Late Submission - [Assignment Name] - [Your Name]
+
+Dear Mr./Ms. [Teacher's Last Name],
+
+I am writing to respectfully explain that I am currently experiencing an unforeseen and significant delay in completing the [Assignment Name] assignment. I understand the importance of deadlines, and I sincerely apologize for this lapse in my submission.
+
+Yesterday, I encountered [Clearly and briefly explain the reason – e.g., a family emergency, a sudden illness, an unexpected technical issue with my computer]. This has significantly impacted my ability to dedicate the necessary time to complete the assignment to the best of my ability.
+
+I have already [Explain what you’ve done – e.g., started working on it, completed [part of the assignment], and am currently working on [specific task]].  I expect to have the assignment completed by [New Deadline – be realistic!] and will submit it as soon as possible.
+
+Thank you for your understanding and consideration in this matter. I am committed to completing this assignment to the best of my ability and appreciate your flexibility.
+
+Sincerely,
+[Your Name]
+[Your Student ID Number]
+
+**Option 2: Slightly Less Formal (Good for a teacher you're comfortable with)**
+
+[Your Address]
+[Your Phone Number]
+[Your Email Address]
+
+[Date]
+
+Dear Mr./Ms. [Teacher's Last Name],
+
+I’m writing to let you know that I’m running into a bit of a problem with the [Assignment Name] assignment. I’m so sorry for the delay!
+
+[Briefly explain the reason - keep it concise.]
+
+I’ve had [Explain what you've done – e.g., a small issue with my computer, a family thing]. It’s made it difficult to focus on the work, and I wanted to give it a chance to finish to the best of my ability.
+
+I expect to have it finished by [New Deadline] and will submit it right away.
+
+Thank you for your understanding!
+
+Best,
+[Your Name]
+[Your Student ID Number]
+
+**Option 3: Short & Sweet (If you’re a little hesitant to over-explain)**
+
+[Your Address]
+[Your Phone Number]
+[Your Email Address]
+
+[Date]
+
+Dear Mr./Ms. [Teacher's Last Name],
+
+I am writing to explain that I am late submitting the [Assignment Name] assignment. I encountered [Briefly state the reason - e.g., an unexpected situation]. I expect to have it completed by [New Deadline].
+
+Thank you for your understanding.
+
+Sincerely,
+[Your Name]
+
+---
+
+**Important Notes & Things to Customize:**
+
+*   **Be Honest (but concise):** Don’t make excuses, but provide a brief, honest explanation.
+*   **Take Responsibility:**  Don’t blame others. Focus on what *you* did.
+*   **State the New Deadline:** Be clear about when you *will* submit the assignment.
+*   **Proofread:**  Always check for grammar and spelling errors!
+*   **Consider your Teacher's Style:** If your teacher prefers formal communication, use Option 1. If they’re more casual, Option 2 might be better.
+
+To help me tailor the letter even better, could you tell me:
+
+*   What kind of assignment is it? (e.g., essay, presentation, project?)
+*   What was the reason for the delay? (You don’t have to share the details, but a general idea is helpful.)
+
+> 
+common_perf_print:    sampling time =    2973.11 ms
+common_perf_print:    samplers time =    1903.08 ms /   892 tokens
+common_perf_print:        load time =    7175.90 ms
+common_perf_print: prompt eval time =    2425.01 ms /    27 tokens (   89.82 ms per token,    11.13 tokens per second)
+common_perf_print:        eval time =  201881.89 ms /   864 runs   (  233.66 ms per token,     4.28 tokens per second)
+common_perf_print:       total time =  212904.18 ms /   891 tokens
+common_perf_print: unaccounted time =    5624.17 ms /   2.6 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =        860
+llama_memory_breakdown_print: | memory breakdown [MiB]   | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host                 |                 1314 =   762 +      38 +     514                |
+llama_memory_breakdown_print: |   - CPU_RISCV64_SPACEMIT |                   79 =    79 +       0 +       0                |
+Interrupted by user
+

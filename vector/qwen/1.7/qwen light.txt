@@ -1,0 +1,53 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/qwen/Qwen3-1.7B-Q4_K_M.gguf -p "hello welcome to my banana pi board"
+
+
+
+
+
+hello welcome to my banana pi board
+assistant
+<think>
+Okay, the user mentioned "hello welcome to my banana pi board." They might be asking about how to use their Banana Pi board or need assistance with something related to it. Let me think about possible questions they could have.
+
+First, they might want to know how to set up the Banana Pi board. That includes connecting it to a monitor, setting up the operating system, or connecting peripherals like a keyboard or mouse. They might also be looking for guidance on running specific software or using the board for a particular purpose, like a robot, a media center, or a development platform.
+
+Another possibility is they need help with a specific task, such as connecting the board to a network, installing a particular software, or troubleshooting an issue. They might also be interested in the technical specifications of the Banana Pi board, like the processor, memory, or available ports.
+
+I should consider providing general guidance on setting up the Banana Pi board, including hardware connections, operating system installation, and software setup. Also, offer help with specific tasks they might be facing. It's important to keep the response helpful and not assume too much, but still cover the key areas they might be interested in.
+</think>
+
+Hello! Welcome to your Banana Pi board. Let me know how I can assist you! Here are some common tasks or questions you might want to explore:
+
+### 1. **Getting Started**  
+   - **How to connect to a monitor**: Use HDMI or VGA for display.  
+   - **Install an operating system**: Use Raspberry Pi OS or a custom image.  
+   - **Connect peripherals**: Add a keyboard/mouse via USB or use HDMI for a display.  
+
+### 2. **Software and Tools**  
+   - **Run applications**: Use the Raspberry Pi OS (Raspbian) or a custom OS.  
+   - **Develop with Python**: Use the PiStorms or other tools.  
+   - **Connect to Wi-Fi**: Configure IP address and network settings.  
+
+### 3. **Troubleshooting**  
+   - **Hardware issues**: Check connections, power, or GPIO pins.  
+   - **Software errors**: Reinstall drivers or update the OS.  
+
+### 4. **Customization**  
+   - **Modify the OS**: Flash a custom image or install additional software.  
+   - **Use the GPIO pins**: Program the board for robotics or IoT projects.  
+
+Let me know what you’d like to do! 😊
+
+> 
+common_perf_print:    sampling time =     976.84 ms
+common_perf_print:    samplers time =     623.42 ms /   515 tokens
+common_perf_print:        load time =   14078.51 ms
+common_perf_print: prompt eval time =    1383.50 ms /    15 tokens (   92.23 ms per token,    10.84 tokens per second)
+common_perf_print:        eval time =  223077.19 ms /   499 runs   (  447.05 ms per token,     2.24 tokens per second)
+common_perf_print:       total time =  227214.91 ms /   514 tokens
+common_perf_print: unaccounted time =    1777.38 ms /   0.8 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =        496
+llama_memory_breakdown_print: | memory breakdown [MiB]   | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host                 |                 1963 =  1210 +     448 +     304                |
+llama_memory_breakdown_print: |   - CPU_RISCV64_SPACEMIT |                  717 =   717 +       0 +       0                |
+Interrupted by user

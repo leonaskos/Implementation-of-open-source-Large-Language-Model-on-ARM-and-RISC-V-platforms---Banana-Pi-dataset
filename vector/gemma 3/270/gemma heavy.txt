@@ -1,0 +1,1 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/gemma-3/gemma-3-270m-Q8_0.gguf -p "what is the meaning of life"

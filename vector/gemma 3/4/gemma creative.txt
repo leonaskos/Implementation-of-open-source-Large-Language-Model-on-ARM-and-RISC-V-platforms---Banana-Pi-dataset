@@ -1,0 +1,99 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/gemma-3/gemma-3-4b-it-Q4_K_M.gguf -p "write a letter from the viewpoint of a student explaining to its teacher why an assignment is late"
+
+***
+user
+write a letter from the viewpoint of a student explaining to its teacher why an assignment is late
+model
+Okay, here are a few drafts of a letter from a student explaining a late assignment, ranging from more formal to slightly more casual. Choose the one that best fits your relationship with your teacher and the specific situation.
+
+**Option 1: Formal & Detailed**
+
+[Your Name]
+[Your Address]
+[Your Email]
+[Your Phone Number (Optional)]
+[Date]
+
+[Teacher’s Name]
+[Teacher’s Title]
+[School Name]
+
+Dear Mr./Ms. [Teacher’s Last Name],
+
+Please accept my sincere apologies for the late submission of the [Assignment Name] assignment, which was due on [Original Due Date]. I understand the importance of deadlines and I regret that I was unable to submit it on time.
+
+The reason for the delay was due to [Clearly and concisely explain the reason – be honest and specific. Examples: a family emergency, illness, unexpected difficulty with the material, etc.].  Specifically, [Provide a little more detail if appropriate, but don’t overshare.  E.g., "I was caring for a sick family member," or "I experienced a sudden illness that prevented me from focusing on my work"]. 
+
+I have now completed the assignment and have attached it to this email. I am committed to my learning and I appreciate your understanding in this matter.  I will ensure this does not happen again.
+
+Thank you for your consideration.
+
+Sincerely,
+[Your Name]
+
+
+**Option 2: Slightly Less Formal & More Personal**
+
+[Your Name]
+[Date]
+
+Dear [Teacher’s Name],
+
+I'm writing to let you know that I was unfortunately late submitting the [Assignment Name] assignment. It was due on [Original Due Date], and I apologize for the delay.
+
+I ran into a bit of a challenge with [Briefly explain the reason – again, be honest. E.g., “I had a really tough time understanding the material” or “I was dealing with a family situation that took up a lot of my time.”].  It took me some time to catch up and get everything completed to the best of my ability.
+
+I’ve finished the assignment now and have attached it. I really appreciate your understanding. I'll definitely try to manage my time better in the future.
+
+Thanks,
+[Your Name]
+
+**Option 3: Short & Sweet (Use if you have a good relationship with your teacher)**
+
+[Your Name]
+[Date]
+
+Dear [Teacher’s Name],
+
+I wanted to let you know that I was late submitting the [Assignment Name] assignment. I apologize for the delay. 
+
+[Briefly state the reason – e.g., "I had a family matter to attend to" or "I needed a little extra time to complete it effectively."]
+
+I’ve finished the assignment and have attached it. Thank you for your understanding.
+
+Best,
+[Your Name]
+
+
+
+---
+
+**Important Notes & Tips:**
+
+*   **Be Honest:**  Your teacher will appreciate genuine honesty.
+*   **Be Specific (But Not Overly Detailed):**  Provide enough information to explain the reason, but avoid rambling or sharing unnecessary personal details.
+*   **Take Responsibility:**  Acknowledge that you missed the deadline and apologize.
+*   **Focus on the Solution:**  Mention that you’ve completed the assignment and are ready to submit it.
+*   **Express Gratitude:** Thank your teacher for their understanding.
+*   **Proofread:** Make sure your letter is free of errors.
+
+**To help me tailor the letter even further, could you tell me:**
+
+*   What is the specific assignment?
+*   What was the reason for the late submission? (You don't have to share everything, but a general idea helps.)
+*   What is your relationship with the teacher like? (Formal, friendly, etc.)
+
+> 
+common_perf_print:    sampling time =    3211.47 ms
+common_perf_print:    samplers time =    2079.04 ms /   843 tokens
+common_perf_print:        load time =   30425.31 ms
+common_perf_print: prompt eval time =    3907.69 ms /    27 tokens (  144.73 ms per token,     6.91 tokens per second)
+common_perf_print:        eval time =  643533.90 ms /   815 runs   (  789.61 ms per token,     1.27 tokens per second)
+common_perf_print:       total time =  674754.29 ms /   842 tokens
+common_perf_print: unaccounted time =   24101.23 ms /   3.6 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =        811
+llama_memory_breakdown_print: | memory breakdown [MiB]   | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host                 |                 3139 =  2368 +     254 +     517                |
+llama_memory_breakdown_print: |   - CPU_RISCV64_SPACEMIT |                 1620 =  1620 +       0 +       0                |
+Interrupted by user
+

@@ -1,0 +1,43 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/cogito/cogito-v1-preview-llama-3B-Q4_K_M.gguf -p "calculate the derivative of 3x^2 +5x -7"
+
+************
+user
+
+calculate the derivative of 3x^2 +5x -7assistant
+
+Let me help you calculate the derivative step by step.
+
+Given function: f(x) = 3x^2 + 5x - 7
+
+We can use the power rule and sum rule to find the derivative.
+
+Step 1: Find the derivative of 3x^2
+* Using the power rule: d/dx(x^n) = n*x^(n-1)
+* d/dx(3x^2) = 3 * 2x = 6x
+
+Step 2: Find the derivative of 5x
+* d/dx(5x) = 5 * 1 = 5
+
+Step 3: Find the derivative of -7
+* d/dx(-7) = 0 (derivative of a constant is 0)
+
+Step 4: Combine the results
+* f'(x) = 6x + 5 + 0
+* f'(x) = 6x + 5
+
+Therefore, the derivative of 3x^2 + 5x - 7 is 6x + 5.
+
+> 
+common_perf_print:    sampling time =     366.05 ms
+common_perf_print:    samplers time =     229.42 ms /   249 tokens
+common_perf_print:        load time =   26544.13 ms
+common_perf_print: prompt eval time =    2682.86 ms /    24 tokens (  111.79 ms per token,     8.95 tokens per second)
+common_perf_print:        eval time =  125417.68 ms /   224 runs   (  559.90 ms per token,     1.79 tokens per second)
+common_perf_print:       total time =  130469.03 ms /   248 tokens
+common_perf_print: unaccounted time =    2002.45 ms /   1.5 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =        223
+llama_memory_breakdown_print: | memory breakdown [MiB]   | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host                 |                 2820 =  2116 +     448 +     256                |
+llama_memory_breakdown_print: |   - CPU_RISCV64_SPACEMIT |                 1443 =  1443 +       0 +       0                |
+Interrupted by user
+

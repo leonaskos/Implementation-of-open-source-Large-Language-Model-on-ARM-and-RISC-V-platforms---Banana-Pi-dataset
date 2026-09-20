@@ -1,0 +1,42 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/gemma-3/gemma-3-1b-it-Q4_K_M.gguf -p "calculate the derivative of 3x^2 +5x -7"
+
+
+user
+calculate the derivative of 3x^2 +5x -7
+model
+Okay, let's calculate the derivative of the function 3x^2 + 5x - 7.
+
+**1. Differentiation Rules:**
+
+We'll use the power rule (d/dx (x^n) = nx^(n-1)) and the derivative of a constant.
+
+*   **Power Rule:** d/dx (x^n) = nx^(n-1)
+*   **Derivative of a Constant:** d/dx (c) = 0  (where c is a constant)
+
+**2. Applying the Rules:**
+
+*   **d/dx (3x^2):**  Using the power rule, d/dx (3x^2) = 3 * 2x^(2-1) = 6x^1 = 6x
+*   **d/dx (5x):**  Using the power rule, d/dx (5x) = 5 * 1x^(1-1) = 5x^0 = 5
+*   **d/dx (-7):**  The derivative of a constant is 0.
+
+**3. Putting it all together:**
+
+The derivative of 3x^2 + 5x - 7 is:
+
+d/dx (3x^2 + 5x - 7) = 6x + 5
+
+**Therefore, the derivative of 3x^2 + 5x - 7 is 6x + 5.**
+
+> 
+common_perf_print:    sampling time =    1012.00 ms
+common_perf_print:    samplers time =     642.35 ms /   338 tokens
+common_perf_print:        load time =    5366.86 ms
+common_perf_print: prompt eval time =    2090.22 ms /    23 tokens (   90.88 ms per token,    11.00 tokens per second)
+common_perf_print:        eval time =   86666.97 ms /   314 runs   (  276.01 ms per token,     3.62 tokens per second)
+common_perf_print:       total time =   94355.22 ms /   337 tokens
+common_perf_print: unaccounted time =    4586.03 ms /   4.9 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =        312
+llama_memory_breakdown_print: | memory breakdown [MiB]   | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host                 |                 1314 =   762 +      38 +     514                |
+llama_memory_breakdown_print: |   - CPU_RISCV64_SPACEMIT |                   79 =    79 +       0 +       0                |
+Interrupted by user

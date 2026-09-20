@@ -1,0 +1,29 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/qwen/Qwen3-4B-Q4_K_M.gguf -p "hello welcome to my banana pi board"
+
+
+
+
+
+*****************************
+user
+hello welcome to my banana pi board
+assistant
+<think>
+Okay, the user greeted me with "hello welcome to my banana pi board". I need to respond appropriately. First, I should acknowledge their greeting and express that I'm glad to be here. Then, I should ask how I can assist them. Maybe they're referring to the Banana Pi board as a specific device or project. I should keep the response friendly and open-ended to encourage them to explain what they need help with. I should avoid making assumptions and stay general. Also, check if there's any context I might be missing, but since the user hasn't provided much information, I'll stick to a standard response. Make sure the tone is helpful and not too technical unless they specify.
+</think>
+
+Hello! Welcome to your Banana Pi board! 🍌 I'm glad to be here. How can I assist you today? Whether you're working on a project, need help with coding, or have questions about the Banana Pi, feel free to share what you're up to! 😊
+
+> 
+common_perf_print:    sampling time =     392.15 ms
+common_perf_print:    samplers time =     250.73 ms /   219 tokens
+common_perf_print:        load time =   34392.82 ms
+common_perf_print: prompt eval time =    2775.17 ms /    15 tokens (  185.01 ms per token,     5.41 tokens per second)
+common_perf_print:        eval time =  173671.26 ms /   203 runs   (  855.52 ms per token,     1.17 tokens per second)
+common_perf_print:       total time =  188544.23 ms /   218 tokens
+common_perf_print: unaccounted time =   11705.65 ms /   6.2 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =        202
+llama_memory_breakdown_print: | memory breakdown [MiB]   | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host                 |                 3240 =  2362 +     576 +     301                |
+llama_memory_breakdown_print: |   - CPU_RISCV64_SPACEMIT |                 1870 =  1870 +       0 +       0                |
+

@@ -1,0 +1,36 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/gemma-3/gemma-3-270m-Q8_0.gguf -p "hello welcome to my banana pi board"
+
+
+
+
+
+***************
+hello welcome to my banana pi board!
+
+This is a great board to build with the kids. It is made of real bananas and has a nice bright white color. It also comes with a small wooden base to build with.
+
+This is the 2nd one of my banana pi board!
+
+This is the 3rd one of my banana pi board.
+
+This is the 4th one of my banana pi board.
+
+I hope you all enjoy this board!
+
+Hope you find this board useful.
+
+Happy building!
+
+<strong>Follow me on Pinterest for more banana pi board ideas!</strong> [end of text]
+
+
+common_perf_print:    sampling time =     385.89 ms
+common_perf_print:    samplers time =     240.15 ms /   125 tokens
+common_perf_print:        load time =    2876.84 ms
+common_perf_print: prompt eval time =     221.54 ms /     8 tokens (   27.69 ms per token,    36.11 tokens per second)
+common_perf_print:        eval time =   10501.64 ms /   116 runs   (   90.53 ms per token,    11.05 tokens per second)
+common_perf_print:       total time =   11140.08 ms /   124 tokens
+common_perf_print: unaccounted time =      31.02 ms /   0.3 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =        115
+llama_memory_breakdown_print: | memory breakdown [MiB] | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host               |                  812 =   271 +      27 +     513                |

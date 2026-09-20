@@ -1,0 +1,39 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/DeepHat/DeepHat-V1-7B-Q4_K_M.gguf -p "write a letter from the viewpoint of a student explaining to its teacher why an assignment is late"
+
+
+*****************
+user
+write a letter from the viewpoint of a student explaining to its teacher why an assignment is late
+assistant
+Dear [Teacher's Name],
+
+I hope this message finds you well. I am writing to explain why I am late with the assignment due last week. I understand the importance of timely submissions and appreciate your efforts in creating engaging content for our class. However, due to unforeseen circumstances, my progress was significantly hindered this week.
+
+On Monday, I experienced a family emergency that required my immediate attention. While I made an effort to stay caught up with the materials, the situation demanded my full focus and availability. This situation prevented me from dedicating the necessary time to complete the assignment on time.
+
+Additionally, there have been ongoing challenges with my internet connection throughout the week, which has affected my ability to access resources and complete work efficiently. These technical issues have been persistent and have made it difficult for me to make progress without additional support or resources.
+
+Given these circumstances, I am committed to addressing the assignment as soon as possible. To ensure you have access to my work in a timely manner, I will prioritize completing it as soon as the circumstances that have been hindering my progress are resolved.
+
+Thank you for your understanding and support during this challenging week. I look forward to discussing this matter further and making up for the lost time with my upcoming submissions.
+
+Warm regards,
+
+[Your Name]
+[Your Grade/Learning Group]
+[Your Contact Information]
+
+> 
+common_perf_print:    sampling time =     530.17 ms
+common_perf_print:    samplers time =     331.32 ms /   296 tokens
+common_perf_print:        load time =   81331.35 ms
+common_perf_print: prompt eval time =    7985.05 ms /    26 tokens (  307.12 ms per token,     3.26 tokens per second)
+common_perf_print:        eval time =  322125.39 ms /   269 runs   ( 1197.49 ms per token,     0.84 tokens per second)
+common_perf_print:       total time =  331721.12 ms /   295 tokens
+common_perf_print: unaccounted time =    1080.51 ms /   0.3 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =        267
+llama_memory_breakdown_print: | memory breakdown [MiB]   | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host                 |                 5565 =  5037 +     224 +     304                |
+llama_memory_breakdown_print: |   - CPU_RISCV64_SPACEMIT |                 3307 =  3307 +       0 +       0                |
+Interrupted by user
+

@@ -1,0 +1,21 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/falcon/Falcon3-1B-Instruct-Q4_K_M.gguf -p "hello welcome to my banana pi board"
+
+***********************
+<|user|>
+hello welcome to my banana pi board<|assistant|>
+Hello! It's great to meet you. If you have any questions or would like to discuss the Banana Pi board or any other topics, feel free to ask. I'm here to help.
+
+> 
+common_perf_print:    sampling time =      72.18 ms
+common_perf_print:    samplers time =      45.59 ms /    60 tokens
+common_perf_print:        load time =   11072.09 ms
+common_perf_print: prompt eval time =     909.80 ms /    17 tokens (   53.52 ms per token,    18.69 tokens per second)
+common_perf_print:        eval time =   13690.13 ms /    42 runs   (  325.96 ms per token,     3.07 tokens per second)
+common_perf_print:       total time =   16377.82 ms /    59 tokens
+common_perf_print: unaccounted time =    1705.71 ms /  10.4 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =         41
+llama_memory_breakdown_print: | memory breakdown [MiB]   | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host                 |                 1546 =   994 +     288 +     264                |
+llama_memory_breakdown_print: |   - CPU_RISCV64_SPACEMIT |                  573 =   573 +       0 +       0                |
+Interrupted by user
+

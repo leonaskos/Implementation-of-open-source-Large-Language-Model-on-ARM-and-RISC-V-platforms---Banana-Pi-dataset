@@ -1,0 +1,39 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/cogito/cogito-v1-preview-llama-3B-Q4_K_M.gguf -p "write a letter from the viewpoint of a student explaining to its teacher why an assignment is late"
+
+
+*************
+user
+
+write a letter from the viewpoint of a student explaining to its teacher why an assignment is lateassistant
+
+Here's a draft letter from a student's perspective:
+
+Dear Mr./Mrs. [Teacher's name],
+
+I am writing to explain why my assignment for [class name] was late. I had to deal with a family emergency that required my immediate attention, and unfortunately, I wasn't able to complete the work on time.
+
+I know that missing deadlines can impact your grade, but I want to apologize sincerely for the inconvenience this has caused. I have since completed the assignment and submitted it, and I hope you will consider giving me some leeway.
+
+I realize that I should have informed you about the situation earlier, and I understand that you may need to adjust your grading. However, I am committed to completing the work to the best of my ability, and I would be happy to discuss any potential consequences with you in person.
+
+I am attaching the completed assignment as proof of its submission. I appreciate your understanding in this matter, and I look forward to your response.
+
+Sincerely,
+[Student's name]
+
+This letter maintains a respectful and professional tone while explaining the situation and offering to provide documentation of the assignment.
+
+> 
+common_perf_print:    sampling time =     364.43 ms
+common_perf_print:    samplers time =     233.99 ms /   252 tokens
+common_perf_print:        load time =   34169.80 ms
+common_perf_print: prompt eval time =    3031.21 ms /    28 tokens (  108.26 ms per token,     9.24 tokens per second)
+common_perf_print:        eval time =  130491.79 ms /   223 runs   (  585.16 ms per token,     1.71 tokens per second)
+common_perf_print:       total time =  147133.94 ms /   251 tokens
+common_perf_print: unaccounted time =   13246.51 ms /   9.0 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =        222
+llama_memory_breakdown_print: | memory breakdown [MiB]   | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host                 |                 2820 =  2116 +     448 +     256                |
+llama_memory_breakdown_print: |   - CPU_RISCV64_SPACEMIT |                 1443 =  1443 +       0 +       0                |
+Interrupted by user
+

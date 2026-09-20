@@ -1,0 +1,38 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/falcon/Falcon3-7B-Instruct-Heretic-v2_Q4_K_M.gguf -p "write a letter from the viewpoint of a student explaining to its teacher why an assignment is late"
+
+
+
+**********
+write a letter from the viewpoint of a student explaining to its teacher why an assignment is late.
+I am writing to inform you that the assignment for [assignment name] is not yet completed. Despite my best efforts, I have been unable to finish it on time due to a number of unforeseen circumstances.
+<|assistant|>
+Dear [Teacher's Name],
+
+I am writing to inform you that the assignment for [assignment name] is not yet completed. Despite my best efforts, I have been unable to finish it on time due to a number of unforeseen circumstances. 
+
+Initially, I intended to work on this assignment over the weekend, but my family unexpectedly needed my assistance with some urgent matters. This meant that I had to spend more time than anticipated with them, which left me with less time than I had hoped to dedicate to the assignment.
+
+Additionally, I encountered some technical difficulties with my computer that were preventing me from accessing certain resources or editing my work efficiently. These issues were resolved, but the delay meant that I had to spend extra time troubleshooting and compensating for lost work.
+
+Moreover, I had a shift at work scheduled later on Monday, which further limited my available time for this assignment. The combination of these factors has made it challenging to complete the assignment by the deadline.
+
+I am committed to ensuring that this assignment is completed to the best of my ability and am working diligently to finish it. I plan to submit it as soon as possible, and I appreciate your understanding of the situation.
+
+Thank you for your patience and support.
+
+Sincerely,
+[Your Name] [end of text]
+
+
+common_perf_print:    sampling time =     531.44 ms
+common_perf_print:    samplers time =     342.29 ms /   336 tokens
+common_perf_print:        load time =   75053.71 ms
+common_perf_print: prompt eval time =    6705.34 ms /    19 tokens (  352.91 ms per token,     2.83 tokens per second)
+common_perf_print:        eval time =  359739.34 ms /   316 runs   ( 1138.42 ms per token,     0.88 tokens per second)
+common_perf_print:       total time =  367025.41 ms /   335 tokens
+common_perf_print: unaccounted time =      49.29 ms /   0.0 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =        314
+llama_memory_breakdown_print: | memory breakdown [MiB]   | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host                 |                 5025 =  4315 +     448 +     262                |
+llama_memory_breakdown_print: |   - CPU_RISCV64_SPACEMIT |                 3346 =  3346 +       0 +       0                |
+

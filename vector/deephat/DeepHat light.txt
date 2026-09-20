@@ -1,0 +1,58 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/DeepHat/DeepHat-V1-7B-Q4_K_M.gguf -p "hello welcome to my banana pi board"
+
+***********
+user
+hello welcome to my banana pi board
+assistant
+Hello and welcome to the Banana Pi board! As you are new to this board, let me introduce you to its features and how you can get started with it.
+
+The Banana Pi is a versatile single-board computer that comes with a powerful ARM processor. It is designed to be both affordable and powerful, making it an excellent choice for various projects and applications.
+
+To get started with your Banana Pi board, you will need the following components:
+
+1. Banana Pi Board: The core of your project, this board comes with a quad-core processor and sufficient memory to run multiple applications simultaneously.
+
+2. Power Supply: A power supply unit (PSU) is essential to provide power to your Banana Pi. Make sure you have a compatible PSU that can deliver enough voltage and current for your board.
+
+3. SD Card: The Banana Pi uses an SD card as its primary storage medium. You will need a micro SD card with sufficient storage capacity to store your operating system, applications, and data.
+
+4. USB Adapter (optional): If you plan to connect external peripherals such as USB keyboards or mice, a USB adapter is recommended.
+
+5. Monitor and Keyboard: To interact with your Banana Pi board, you will need a monitor and a keyboard. A standard HDMI monitor and USB keyboard will work fine.
+
+6. Networking: To connect your Banana Pi to the internet or other devices on your network, you will need an Ethernet cable or a wireless adapter.
+
+7. Accessories: Depending on your specific project requirements, you may need additional accessories such as sensors, actuators, or expansion boards.
+
+Once you have all the necessary components, you can proceed with the following steps:
+
+1. Install the Operating System: Most Banana Pi users prefer to install a Linux distribution such as Armbian or Ubuntu. These distributions are optimized for ARM architecture and provide a wide range of software packages. You can download the desired OS image and write it to your micro SD card using tools like Etcher or Win32 Disk Imager.
+
+2. Booting the Board: Once your SD card is prepared, you can insert it into the Banana Pi board and power it on. The board will boot up automatically and display the boot sequence on your monitor. Wait for the boot process to complete, and you will be presented with a login prompt.
+
+3. Setting Up the Board: After logging in, you can perform some initial setup tasks such as configuring the network settings, creating user accounts, and installing any additional software you need. The Banana Pi board comes pre-loaded with a minimal installation of the operating system, so you will have to manually install any additional software packages.
+
+4. Expanding the Storage: If you have installed a minimal operating system and need more storage space, you can expand the partition of your micro SD card using tools like gparted or fdisk. This will allow you to utilize the full capacity of your SD card.
+
+5. Developing and Testing Your Projects: Once your Banana Pi is set up and configured, you can start developing your projects. Whether it's running a web server, controlling robotics components, or performing data analysis, the Banana Pi provides the necessary hardware and software resources to get your projects up and running.
+
+6. Troubleshooting and Debugging: If you encounter any issues while using your Banana Pi board, troubleshooting and debugging can be done through various means such as using a serial console, SSH access, or debugging tools provided by the operating system.
+
+7. Documentation and Resources: To further explore the capabilities of your Banana Pi board, it is recommended to refer to the official Banana Pi documentation, forums, and community resources. These resources provide valuable information on hardware specifications, software development guides, and community-driven projects.
+
+By following these steps and utilizing the resources available, you can fully leverage the power and versatility of your Banana Pi board for various applications. Happy experimenting!
+
+> 
+common_perf_print:    sampling time =    1475.49 ms
+common_perf_print:    samplers time =     936.36 ms /   789 tokens
+common_perf_print:        load time =   81503.14 ms
+common_perf_print: prompt eval time =    5180.91 ms /    15 tokens (  345.39 ms per token,     2.90 tokens per second)
+common_perf_print:        eval time =  984989.29 ms /   773 runs   ( 1274.24 ms per token,     0.78 tokens per second)
+common_perf_print:       total time =  997582.82 ms /   788 tokens
+common_perf_print: unaccounted time =    5937.14 ms /   0.6 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =        769
+llama_memory_breakdown_print: | memory breakdown [MiB]   | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host                 |                 5565 =  5037 +     224 +     304                |
+llama_memory_breakdown_print: |   - CPU_RISCV64_SPACEMIT |                 3307 =  3307 +       0 +       0                |
+Interrupted by user
+

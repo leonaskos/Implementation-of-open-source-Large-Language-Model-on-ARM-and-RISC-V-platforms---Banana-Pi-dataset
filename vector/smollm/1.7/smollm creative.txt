@@ -1,0 +1,36 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/smollm/smollm2-1.7b-instruct-q4_k_m.gguf -p "write a letter from the viewpoint of a student explaining to its teacher why an assignment is late"
+
+
+*****
+user
+write a letter from the viewpoint of a student explaining to its teacher why an assignment is late
+assistant
+Dear [Teacher's Name],
+
+I am writing to inform you that my assignment, which was due on [date], is now late. I would like to apologize for this unfortunate delay and explain why I could not complete it on time.
+
+I am a [student's name] and I understand that the assignment is crucial for my academic development. However, I have been going through a difficult time with [health, family, financial issues], which has made it hard for me to focus on my studies.
+
+I would like to request your understanding and support in this matter. I have been trying my best to manage my responsibilities and complete the assignment as soon as possible. However, I have encountered some challenges that have made it impossible for me to submit it on time.
+
+I hope that you can understand the situation and not penalize me for the delay. I am committed to my studies and I will do everything in my power to ensure that I complete all assignments on time.
+
+Thank you for your understanding and I look forward to hearing from you.
+
+Sincerely,
+[Your Name]
+
+> 
+common_perf_print:    sampling time =     151.95 ms
+common_perf_print:    samplers time =      98.60 ms /   256 tokens
+common_perf_print:        load time =   14445.62 ms
+common_perf_print: prompt eval time =    2001.63 ms /    27 tokens (   74.13 ms per token,    13.49 tokens per second)
+common_perf_print:        eval time =   81290.92 ms /   228 runs   (  356.54 ms per token,     2.80 tokens per second)
+common_perf_print:       total time =   84376.45 ms /   255 tokens
+common_perf_print: unaccounted time =     931.95 ms /   1.1 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =        227
+llama_memory_breakdown_print: | memory breakdown [MiB]   | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host                 |                 1877 =  1005 +     768 +     104                |
+llama_memory_breakdown_print: |   - CPU_RISCV64_SPACEMIT |                  810 =   810 +       0 +       0                |
+Interrupted by user
+

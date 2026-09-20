@@ -1,0 +1,22 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/smollm/smollm2-1.7b-instruct-q4_k_m.gguf -p "hello welcome to my banana pi board"
+
+*********
+user
+hello welcome to my banana pi board
+assistant
+I'm glad you're here! What can I help you with today?
+
+> 
+common_perf_print:    sampling time =      11.46 ms
+common_perf_print:    samplers time =       7.00 ms /    32 tokens
+common_perf_print:        load time =   14426.89 ms
+common_perf_print: prompt eval time =    1167.97 ms /    16 tokens (   73.00 ms per token,    13.70 tokens per second)
+common_perf_print:        eval time =    5835.94 ms /    15 runs   (  389.06 ms per token,     2.57 tokens per second)
+common_perf_print:       total time =   17689.19 ms /    31 tokens
+common_perf_print: unaccounted time =   10673.82 ms /  60.3 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =         14
+llama_memory_breakdown_print: | memory breakdown [MiB]   | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host                 |                 1877 =  1005 +     768 +     104                |
+llama_memory_breakdown_print: |   - CPU_RISCV64_SPACEMIT |                  810 =   810 +       0 +       0                |
+Interrupted by user
+

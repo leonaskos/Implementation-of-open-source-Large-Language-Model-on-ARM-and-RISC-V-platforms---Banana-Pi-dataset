@@ -1,0 +1,21 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/falcon/Falcon3-3B-Instruct-Heretic.i1-Q4_K_M.gguf -p "hello welcome to my banana pi board"
+
+***************
+<|user|>
+hello welcome to my banana pi board<|assistant|>
+Hello! Welcome to the Banana Pi board. This is a Raspberry Pi designed for high-speed networking and easy integration with other devices. It's known for its powerful BCM2836 CPU and 64-bit architecture, making it suitable for a variety of projects, including IoT, gaming, and development. If you're looking for advice on setting up a Raspberry Pi, Raspberry Pi tutorials, or projects you can build with it, feel free to ask!
+
+> 
+common_perf_print:    sampling time =     160.68 ms
+common_perf_print:    samplers time =     105.12 ms /   115 tokens
+common_perf_print:        load time =   22660.39 ms
+common_perf_print: prompt eval time =    1741.28 ms /    17 tokens (  102.43 ms per token,     9.76 tokens per second)
+common_perf_print:        eval time =   45940.68 ms /    97 runs   (  473.62 ms per token,     2.11 tokens per second)
+common_perf_print:       total time =   48972.93 ms /   114 tokens
+common_perf_print: unaccounted time =    1130.29 ms /   2.3 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =         96
+llama_memory_breakdown_print: | memory breakdown [MiB]   | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host                 |                 2507 =  1893 +     352 +     262                |
+llama_memory_breakdown_print: |   - CPU_RISCV64_SPACEMIT |                 1256 =  1256 +       0 +       0                |
+Interrupted by user
+

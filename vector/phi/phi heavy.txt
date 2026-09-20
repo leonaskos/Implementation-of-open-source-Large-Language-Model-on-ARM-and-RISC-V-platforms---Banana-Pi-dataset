@@ -1,0 +1,38 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/phi/Phi-3.5-mini-Instruct-Q4_K_M.gguf -p "what is the meaning of life"
+
+
+***********
+ 
+what is the meaning of life 
+ 
+The meaning of life is a profound and philosophical question that has been pondered by humanity for centuries. Different cultures, religions, philosophies, and individuals propose various interpretations, reflecting the rich tapestry of human thought and belief.
+
+Here are some commonly explored perspectives:
+
+1. **Religious and spiritual perspectives**: Many religious and spiritual traditions assert that the purpose of life is to fulfill a divine plan or to achieve spiritual enlightenment or salvation. For example, in Christianity, the purpose of life is often seen as glorifying God and seeking eternal life with Him. In Buddhism, the aim might be to attain Nirvana, which represents liberation from the cycle of suffering and rebirth.
+
+2. **Humanistic perspectives**: Humanists may argue that the meaning of life is to seek personal growth, happiness, and the fulfillment of one's potential. This perspective emphasizes individual autonomy, ethical living, and contributing to the well-being of others.
+
+3. **Existentialist perspectives**: Existentialist philosophers like Jean-Paul Sartre and Albert Camus contend that life has no inherent purpose, and individuals must create their own meaning through their choices and actions. This perspective highlights personal responsibility, freedom, and authenticity.
+
+4. **Philosophical and scientific perspectives**: Some philosophers and scientists approach the question of life's purpose from a more objective standpoint. They might argue that life is a biological phenomenon, driven by natural selection and evolution. From this viewpoint, the purpose of life is to survive and reproduce.
+
+5. **Cosmological perspective**: Some interpretations delve into a broader perspective, considering the universe and humanity's place within it. They propose that life's purpose might be to explore, understand, and appreciate the complexity and beauty of the cosmos, as well as our connections to it.
+
+Ultimately, the meaning of life may be a personal journey, one that evolves and changes over time as we gain new experiences and insights. It encourages us to ponder our beliefs, values, and desires while embracing the complexity and diversity of human thought.
+
+> 
+common_perf_print:    sampling time =     246.07 ms
+common_perf_print:    samplers time =     166.57 ms /   519 tokens
+common_perf_print:        load time =   25774.97 ms
+common_perf_print: prompt eval time =    5730.51 ms /    15 tokens (  382.03 ms per token,     2.62 tokens per second)
+common_perf_print:        eval time =  596796.78 ms /   503 runs   ( 1186.47 ms per token,     0.84 tokens per second)
+common_perf_print:       total time =  618714.42 ms /   518 tokens
+common_perf_print: unaccounted time =   15941.06 ms /   2.6 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =        500
+llama_memory_breakdown_print: | memory breakdown [MiB]   | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host                 |                 3889 =  2281 +    1536 +      72                |
+llama_memory_breakdown_print: |   - CPU_RISCV64_SPACEMIT |                 1380 =  1380 +       0 +       0                |
+Interrupted by user
+
+

@@ -1,0 +1,29 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/qwen/Qwen3-0.6B-Q8_0.gguf -p "hello welcome to my banana pi board"
+
+********************
+user
+hello welcome to my banana pi board
+assistant
+<think>
+Okay, the user said "hello welcome to my banana pi board". Let me think about how to respond. The user is probably just greeting me. Since I'm a virtual assistant, I should acknowledge their greeting and maybe offer assistance. Let me make sure to keep the response friendly and open-ended. I should mention that I'm here to help and ask if they have any questions. That should cover it without being too lengthy.
+</think>
+
+Hello! Welcome to my Banana Pi board! How can I assist you today? 😊
+
+> 
+common_perf_print:    sampling time =     207.55 ms
+common_perf_print:    samplers time =     132.39 ms /   124 tokens
+common_perf_print:        load time =    2818.88 ms
+common_perf_print: prompt eval time =     907.85 ms /    15 tokens (   60.52 ms per token,    16.52 tokens per second)
+common_perf_print:        eval time =   14156.16 ms /   108 runs   (  131.08 ms per token,     7.63 tokens per second)
+common_perf_print:       total time =   16526.27 ms /   123 tokens
+common_perf_print: unaccounted time =    1254.71 ms /   7.6 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =        107
+llama_memory_breakdown_print: | memory breakdown [MiB] | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host               |                 1358 =   604 +     448 +     306                |
+Interrupted by user
+
+
+
+
+

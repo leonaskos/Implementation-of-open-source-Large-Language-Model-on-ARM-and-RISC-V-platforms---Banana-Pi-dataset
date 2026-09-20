@@ -1,0 +1,52 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/phi/Phi-3.5-mini-Instruct-Q4_K_M.gguf -p "write a letter from the viewpoint of a student explaining to its teacher why an assignment is late"
+
+
+**************
+ 
+write a letter from the viewpoint of a student explaining to its teacher why an assignment is late 
+ 
+[Student's Name]
+[Student Address]
+[City, State, Zip Code]
+[Email Address]
+[Date]
+
+[Teacher's Name]
+[School's Name]
+[School Address]
+[City, State, Zip Code]
+
+Dear [Teacher's Name],
+
+I hope this letter finds you well. I am writing to you regarding the assignment that was due on [initial due date], specifically the one concerning [subject or topic of the assignment]. I am truly sorry for not submitting my work on time and I understand that this might cause inconvenience.
+
+The reason why the assignment was not completed on schedule is due to unforeseen circumstances that required my immediate attention. [Briefly mention the specific reason, such as a family emergency, a medical appointment, or a personal issue]. This unexpected situation was beyond my control, and I did my utmost to manage my time effectively, but I understand that it resulted in a delay in completing the assignment.
+
+I want to assure you that I took responsibility for the missed deadline and immediately began working on the assignment as soon as I was able to. I have completed the assignment and have attached it to this letter for your reference. I believe that the work I have submitted meets the expectations and requirements of the assignment and reflects my commitment to the course and to maintaining the highest academic standards.
+
+I deeply regret not being able to submit the assignment on time, and I am taking steps to avoid such situations in the future. I am committed to being punctual and responsible, and I will make sure to communicate any potential challenges to you promptly so that we can work together to find a solution.
+
+Once again, I apologize for any inconvenience my late submission may have caused you and any other classmates or members of the teaching staff. I am grateful for your understanding and support in this matter.
+
+Thank you for your time and for considering my apology. Please feel free to reach out to me if you need further information or clarification about the assignment.
+
+Sincerely,
+
+[Student's Name]
+
+P.S. I am committed to making up for the missed deadline and have taken steps to ensure that I am more prepared in the future. I appreciate any guidance or resources you may be able to provide to assist me in improving my time management and organizational skills.
+
+> 
+common_perf_print:    sampling time =     260.32 ms
+common_perf_print:    samplers time =     177.55 ms /   553 tokens
+common_perf_print:        load time =   25925.12 ms
+common_perf_print: prompt eval time =   12504.47 ms /    28 tokens (  446.59 ms per token,     2.24 tokens per second)
+common_perf_print:        eval time =  605459.44 ms /   524 runs   ( 1155.46 ms per token,     0.87 tokens per second)
+common_perf_print:       total time =  633942.05 ms /   552 tokens
+common_perf_print: unaccounted time =   15717.83 ms /   2.5 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =        521
+llama_memory_breakdown_print: | memory breakdown [MiB]   | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host                 |                 3889 =  2281 +    1536 +      72                |
+llama_memory_breakdown_print: |   - CPU_RISCV64_SPACEMIT |                 1380 =  1380 +       0 +       0                |
+Interrupted by user
+

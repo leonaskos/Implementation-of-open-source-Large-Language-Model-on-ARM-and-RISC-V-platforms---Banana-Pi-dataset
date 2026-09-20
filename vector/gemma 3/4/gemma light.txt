@@ -1,0 +1,37 @@
+llama-cli --n-gpu-layers 0 --model ~/llama.cpp/models/gemma-3/gemma-3-4b-it-Q4_K_M.gguf -p "hello welcome to my banana pi board"
+
+
+
+
+***
+user
+hello welcome to my banana pi board
+model
+Hello! It's great to be here on your Banana Pi board! 🎉 
+
+I'm excited to help you explore its capabilities. 
+
+To help me understand how I can assist you, could you tell me:
+
+* **What Banana Pi board model do you have?** (e.g., Banana Pi 4, Banana Pi M64, etc.) - Knowing the model will help me give you more specific instructions.
+* **What are you hoping to do with it?** (e.g., learn programming, run a specific application, explore the operating system, etc.)
+* **What's your current experience level with Raspberry Pi and embedded systems?** (e.g., beginner, intermediate, experienced)
+
+
+I'm here to answer your questions, provide code examples, and help you get the most out of your Banana Pi board.  Let's get started! 🍌🚀
+
+> 
+common_perf_print:    sampling time =     746.59 ms
+common_perf_print:    samplers time =     452.45 ms /   206 tokens
+common_perf_print:        load time =   30476.60 ms
+common_perf_print: prompt eval time =    2396.37 ms /    16 tokens (  149.77 ms per token,     6.68 tokens per second)
+common_perf_print:        eval time =  164367.05 ms /   189 runs   (  869.67 ms per token,     1.15 tokens per second)
+common_perf_print:       total time =  182816.60 ms /   205 tokens
+common_perf_print: unaccounted time =   15306.59 ms /   8.4 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =        188
+llama_memory_breakdown_print: | memory breakdown [MiB]   | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host                 |                 3139 =  2368 +     254 +     517                |
+llama_memory_breakdown_print: |   - CPU_RISCV64_SPACEMIT |                 1620 =  1620 +       0 +       0                |
+Interrupted by user
+
+

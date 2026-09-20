@@ -1,0 +1,16 @@
+﻿llama-cli --model ~/llama.cpp/models/falcon/Falcon3-7B-Instruct-Heretic-v2_Q4_K_M.gguf -p "hello welcome to my banana pi board" -st --log-verbosity 3
+
+
+Hello! Welcome to the Banana Pi board. It's a versatile and powerful single-board computer designed for various applications, ranging from home automation to server setups. If you have any specific questions or need guidance on how to use it, feel free to ask!slot print_timing: id  0 | task 0 | 
+prompt eval time =  169814.87 ms /    31 tokens ( 5477.90 ms per token,     0.18 tokens per second)
+       eval time = 1235711.08 ms /    54 tokens (22883.54 ms per token,     0.04 tokens per second)
+      total time = 1405525.95 ms /    85 tokens
+
+slot      release: id  0 | task 0 | stop processing: n_tokens = 84, truncated = 0
+
+[ Prompt: 0.2 t/s | Generation: 0.0 t/s ]
+
+Exiting...
+llama_memory_breakdown_print: | memory breakdown [MiB] | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host               |                 8281 =  4353 +    3584 +     344                |
+
