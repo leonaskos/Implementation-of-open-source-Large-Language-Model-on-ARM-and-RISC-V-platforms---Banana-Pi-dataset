@@ -1,0 +1,28 @@
+﻿llama-cli --model ~/llama.cpp/models/qwen/Qwen3-0.6B-Q8_0.gguf -p "hello welcome to my banana pi board" -st --log-verbosity 3
+
+[Start thinking]
+Okay, the user just said "hello welcome to my banana pi board." Let me think about how to respond.
+
+First, they might be starting a conversation, so a friendly greeting is good. Since they mentioned "banana pi board," I should make sure to acknowledge that. Maybe add a playful note to keep it engaging.
+
+I should check if they have any specific questions or need assistance. It's important to be open-ended to encourage further interaction. Maybe offer help with something they might need, like setting up a project or troubleshooting.
+
+Also, considering the context, the user might be working on a project related to the Banana Pi board. I should keep the tone friendly and approachable. Avoid technical jargon so it's easy to understand. Let them know I'm here to help with whatever they need.
+
+Make sure the response is concise but welcoming. No need to overcomplicate things. Just a simple, positive reply that invites them to ask more.
+[End thinking]
+
+Hello! Welcome to your Banana Pi board! 😊 How can I help you with anything you're working on or curious about?slot print_timing: id  0 | task 0 | 
+prompt eval time =    6137.00 ms /    15 tokens (  409.13 ms per token,     2.44 tokens per second)
+       eval time =  147907.49 ms /   223 tokens (  663.26 ms per token,     1.51 tokens per second)
+      total time =  154044.50 ms /   238 tokens
+slot      release: id  0 | task 0 | stop processing: n_tokens = 237, truncated = 0
+
+srv  update_slots: all slots are idle
+
+[ Prompt: 2.4 t/s | Generation: 1.5 t/s ]
+
+Exiting...
+llama_memory_breakdown_print: | memory breakdown [MiB] | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host               |                 5382 =   604 +    4480 +     298                |
+

@@ -1,0 +1,16 @@
+﻿llama-cli --model ~/llama.cpp/models/smollm/SmolLM2-135M-Instruct-Q4_K_M.gguf -p "what is the meaning of life" -st --log-verbosity 3
+
+The meaning of life is a question that has puzzled humans for centuries. In this conversation, I'm here to explore different perspectives and insights into the meaning of life. I'm ready to share my thoughts and beliefs as a helpful AI. What is it that you're looking for in the conversation?slot print_timing: id  0 | task 0 | 
+prompt eval time =    2985.52 ms /    36 tokens (   82.93 ms per token,    12.06 tokens per second)
+       eval time =   12048.48 ms /    60 tokens (  200.81 ms per token,     4.98 tokens per second)
+      total time =   15034.00 ms /    96 tokens
+
+slot      release: id  0 | task 0 | stop processing: n_tokens = 95, truncated = 0
+srv  update_slots: all slots are idle
+
+[ Prompt: 12.1 t/s | Generation: 5.0 t/s ]
+
+Exiting...
+llama_memory_breakdown_print: | memory breakdown [MiB] | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host               |                  375 =    98 +     180 +      97                |
+

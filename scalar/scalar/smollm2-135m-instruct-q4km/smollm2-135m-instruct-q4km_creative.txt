@@ -1,0 +1,27 @@
+﻿llama-cli --model ~/llama.cpp/models/smollm/SmolLM2-135M-Instruct-Q4_K_M.gguf -p "write a letter from the viewpoint of a student explaining to its teacher why an assignment is late" -st --log-verbosity 3
+
+Hi Ms. Thompson,
+
+I hope this message finds you well. I'm really struggling to keep up with the assignments I've been assigned, and I'm worried I might be behind. Could you please let me know why this is happening?
+
+I understand that exams are important, but I feel like I'm missing out on a lot of material, and I'm starting to feel like I'm not really getting into the material. I've been using all these online resources to get help, but they haven't been very helpful. I'm also finding it hard to keep up with my reading assignments, and I'm having a hard time keeping up with all the reading materials on my devices.
+
+I just received my latest assignment today, and I'm feeling a bit overwhelmed. I've been working hard on it, but I'm not really sure what I'm doing. I keep asking for help, but it seems like it's not getting done. I'm hoping you can help me figure out what's going on and provide some guidance on how to get through this assignment.
+
+Thank you very much for your time and assistance. I appreciate your time and patience.
+
+Best regards,
+Alexslot print_timing: id  0 | task 0 | 
+prompt eval time =    3814.93 ms /    48 tokens (   79.48 ms per token,    12.58 tokens per second)
+       eval time =   53116.38 ms /   246 tokens (  215.92 ms per token,     4.63 tokens per second)
+      total time =   56931.31 ms /   294 tokens
+slot      release: id  0 | task 0 | stop processing: n_tokens = 293, truncated = 0
+srv  update_slots: all slots are idle
+
+
+[ Prompt: 12.6 t/s | Generation: 4.6 t/s ]
+
+Exiting...
+llama_memory_breakdown_print: | memory breakdown [MiB] | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host               |                  375 =    98 +     180 +      97                |
+

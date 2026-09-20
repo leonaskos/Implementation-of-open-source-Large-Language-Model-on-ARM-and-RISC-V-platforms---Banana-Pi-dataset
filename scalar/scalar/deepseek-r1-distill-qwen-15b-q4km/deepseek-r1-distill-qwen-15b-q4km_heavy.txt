@@ -1,0 +1,34 @@
+﻿llama-cli --model ~/llama.cpp/models/deepseek/DeepSeek-R1-Distill-Qwen-1.5B-Q4_K_M.gguf -p "what is the meaning of life" -st --log-verbosity 3
+
+The question of "the meaning of life" is a profound and complex one, as it touches on deep existential questions of human nature and consciousness. Here are some perspectives that have come from various fields:
+
+1. **Philosophical and Theological Perspectives**: 
+   - In philosophy, the concept of meaning often relates to ethical, religious, or metaphysical interpretations. For example, some argue that meaning is found in purpose, duty, or the universe's design.
+   - In theology, some believe that meaning is revealed through faith, such as in the pursuit of divine truth or theAfterlife.
+
+2. **Scientific and Scientific Humanism**: 
+   - Scientific inquiry often emphasizes understanding the universe, the laws of nature, and the structure of reality. This can be seen as a form of meaning, as it seeks to explain the "why" behind natural phenomena.
+   - Scientific humanism, particularly in the context of existentialism, explores meaning through human freedom, meaning, and the value of human experience.
+
+3. **Aesthetics and Art**: 
+   - In art and aesthetics, meaning can be related to beauty, purpose, or the moral value of the work. For example, an artist might seek meaning in their creation by infusing it with themes of growth, harmony, or emotional resonance.
+
+4. **Ethics and Moral Relativism**: 
+   - Ethical frameworks often prioritize actions that contribute to the well-being of others or the moral improvement of society. This can be seen as a form of meaning as it reflects a sense of purpose and responsibility.
+
+5. **Daily Life and Practical Meaning**: 
+   - Ultimately, the meaning of life can also be grounded in personal experiences, goals, and the fulfillment of one's desires. It is often about finding meaning in one's life, in relationships, in purpose, or in contributing to the greater good.
+
+In conclusion, the meaning of life is a multifaceted concept that can be approached from various disciplines. It often involves a balance between personal satisfaction, ethical consideration, and a commitment to one's beliefs and values.slot print_timing: id  0 | task 0 | 
+prompt eval time =   10131.62 ms /     9 tokens ( 1125.74 ms per token,     0.89 tokens per second)
+       eval time =  685139.86 ms /   427 tokens ( 1604.54 ms per token,     0.62 tokens per second)
+      total time =  695271.48 ms /   436 tokens
+slot      release: id  0 | task 0 | stop processing: n_tokens = 435, truncated = 0
+
+
+[ Prompt: 0.9 t/s | Generation: 0.6 t/s ]
+
+Exiting...
+llama_memory_breakdown_print: | memory breakdown [MiB] | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host               |                 5039 =  1059 +    3584 +     396                |
+

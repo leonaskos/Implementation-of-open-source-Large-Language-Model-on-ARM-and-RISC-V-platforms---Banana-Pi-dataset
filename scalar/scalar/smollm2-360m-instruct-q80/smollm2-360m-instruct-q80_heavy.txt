@@ -1,0 +1,24 @@
+﻿llama-cli --model ~/llama.cpp/models/smollm/smollm2-360m-instruct-q8_0.gguf -p "what is the meaning of life" -st --log-verbosity 3
+
+"The meaning of life" is a philosophical concept that has been discussed and debated by people for centuries. There is no single definitive answer, as it is often difficult to define what life means. However, one way to approach the question is to look at the meaning of life through different perspectives and philosophies. 
+
+Philosophy is the study of fundamental questions about existence, reality, knowledge, values, and ethics. Some philosophers argue that the meaning of life is derived from our desires, values, and the purpose of life. For example, some people believe that the meaning of life is about achieving a sense of happiness, fulfillment, and well-being. 
+
+On the other hand, existentialists argue that life is characterized by its inherent freedom and uncertainty. They believe that life has no inherent meaning or purpose, but rather is what we make of it. In this view, the meaning of life is something that we create for ourselves through our choices, actions, and experiences.
+
+Another philosophical perspective is the idea that the meaning of life is derived from our values and principles. For example, some people believe that the meaning of life is about living a life of integrity, kindness, and compassion. Others believe that the meaning of life is about pursuing a sense of purpose, such as helping others, pursuing creative endeavors, or contributing to the greater good.
+
+Ultimately, the meaning of life is not a single, fixed concept, but rather a complex and multifaceted concept that is influenced by our individual experiences, values, and perspectives. It is a question that is difficult to answer with absolute certainty, but rather one that can be approached through a variety of philosophical and personal perspectives.slot print_timing: id  0 | task 0 | 
+prompt eval time =    8460.62 ms /    36 tokens (  235.02 ms per token,     4.26 tokens per second)
+       eval time =  121477.71 ms /   338 tokens (  359.40 ms per token,     2.78 tokens per second)
+      total time =  129938.33 ms /   374 tokens
+
+slot      release: id  0 | task 0 | stop processing: n_tokens = 373, truncated = 0
+srv  update_slots: all slots are idle
+
+[ Prompt: 4.3 t/s | Generation: 2.8 t/s ]
+
+Exiting...
+llama_memory_breakdown_print: | memory breakdown [MiB] | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host               |                  801 =   366 +     320 +     114                |
+

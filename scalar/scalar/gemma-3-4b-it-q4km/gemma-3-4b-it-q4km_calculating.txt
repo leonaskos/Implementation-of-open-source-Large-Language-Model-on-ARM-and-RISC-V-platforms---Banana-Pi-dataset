@@ -1,0 +1,31 @@
+﻿llama-cli --model ~/llama.cpp/models/gemma-3/gemma-3-4b-it-Q4_K_M.gguf -p "calculate the derivative of 3x^2 =5x -7" -st --log-verbosity 3
+
+
+The derivative of 3x² + 5x - 7 is 6x + 5.
+
+Here's how we calculate it using the power rule for differentiation:
+
+* **Power Rule:** The derivative of x^n is nx^(n-1)
+* **Constant Multiple Rule:** The derivative of a constant times a function is the constant times the derivative of the function.
+* **Sum/Difference Rule:** The derivative of a sum or difference of terms is the sum or difference of the derivatives of each term.
+
+Let's apply these rules:
+
+1. **Derivative of 3x²:**  3 * (2x^(2-1)) = 6x
+2. **Derivative of 5x:** 5 * (1x^(1-1)) = 5 * 1 = 5
+3. **Derivative of -7:**  The derivative of a constant is 0.
+
+Therefore, the derivative is 6x + 5 + 0 = **6x + 5**
+slot print_timing: id  0 | task 0 | 
+prompt eval time =   60929.59 ms /    23 tokens ( 2649.11 ms per token,     0.38 tokens per second)
+       eval time =  790004.87 ms /   218 tokens ( 3623.88 ms per token,     0.28 tokens per second)
+      total time =  850934.45 ms /   241 tokens
+
+slot      release: id  0 | task 0 | stop processing: n_tokens = 240, truncated = 0
+srv  update_slots: all slots are idle
+
+[ Prompt: 0.4 t/s | Generation: 0.3 t/s ]
+
+Exiting...
+llama_memory_breakdown_print: | memory breakdown [MiB] | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host               |                 5619 =  2368 +    2734 +     517     

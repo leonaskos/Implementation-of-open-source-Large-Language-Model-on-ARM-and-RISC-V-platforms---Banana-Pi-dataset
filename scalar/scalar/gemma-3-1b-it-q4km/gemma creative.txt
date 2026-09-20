@@ -1,0 +1,98 @@
+llama-cli --model ~/llama.cpp/models/gemma-3/gemma-3-1b-it-Q4_K_M.gguf -p "write a letter from the viewpoint of a student explaining to its teacher why an assignment is late" -st --log-verbosity 3
+
+
+Okay, here are a few drafts of a letter from a student explaining an assignment is late, varying in tone and length. Choose the one that best fits your specific situation and your teacher's personality.
+
+**Option 1: More Formal & Detailed (Good for a more serious teacher)**
+
+[Your Address]
+[Your Date]
+
+[Teacher’s Name]
+[Teacher’s Title]
+[School Name]
+[School Address]
+
+Dear Mr./Ms. [Teacher’s Last Name],
+
+I am writing to respectfully explain that I will be submitting my [Assignment Name] assignment a few days late today. I understand the importance of deadlines and I sincerely apologize for any inconvenience this may cause.
+
+Unfortunately, I experienced an unexpected [Briefly explain the reason - e.g., family emergency, unexpected illness, a significant workload in another class]. This has significantly impacted my ability to focus on completing the assignment to the best of my ability by the original due date.
+
+I have already [Mention what you’ve done – e.g., started working on it, completed the initial research]. I anticipate being able to finalize the assignment by [New Estimated Deadline]. I am committed to ensuring this doesn’t affect my overall grade.
+
+Thank you for your understanding and consideration.
+
+Sincerely,
+[Your Name]
+[Your Student ID]
+
+**Option 2:  Slightly More Conversational & Apologetic (Good for a teacher who appreciates a personal touch)**
+
+[Your Address]
+[Your Date]
+
+[Teacher’s Name]
+[Teacher’s Title]
+[School Name]
+
+Dear Mr./Ms. [Teacher’s Last Name],
+
+I wanted to apologize for being late with my [Assignment Name]. I really appreciate it when deadlines are set, and I feel terrible about this.
+
+Recently, [Briefly explain the reason – e.g., my grandma was feeling really under the weather, I had a bit of a tough day at school]. It threw off my schedule and made it difficult to get to the assignment on time. 
+
+I’ve already [Mention what you’ve done – e.g., started working on it and it’s mostly just finishing the introduction]. I’m confident I can get it to you by [New Estimated Deadline] and will do everything I can to get it to you as soon as possible.
+
+Thank you so much for your understanding.
+
+Best,
+[Your Name]
+[Your Student ID]
+
+**Option 3: Short & Sweet (Use if you have a good relationship with your teacher)**
+
+[Your Address]
+[Your Date]
+
+[Teacher’s Name]
+[Teacher’s Title]
+[School Name]
+
+Dear [Teacher’s Name],
+
+I’m writing to let you know that I’ll be submitting my [Assignment Name] late today. I had a bit of an unexpected [Brief reason - e.g., situation at home] and it’s made it difficult to finish on time.
+
+I’ve already [Mention what you’ve done – e.g., started working on it]. I’ll get it to you by [New Estimated Deadline].
+
+Thanks for your understanding!
+
+Sincerely,
+[Your Name]
+
+---
+
+**Important Notes & Customization:**
+
+*   **Be Honest (But Concise):**  Don’t make up a story. Briefly explain the reason.
+*   **Take Responsibility:**  Avoid blaming others. Focus on what *you* could have done differently.
+*   **Be Specific:**  Mention the specific assignment and the original deadline.
+*   **Offer a Solution:**  State your new deadline.
+*   **Proofread:**  Carefully check for any typos or grammatical errors.
+
+To help me tailor the letter even better, could you tell me:
+
+*   What is the teacher’s personality like? (Formal, casual, etc.)
+*   What was the reason for the delay? (You don’t need to share extremely personal details – just a general idea.)slot print_timing: id  0 | task 0 | 
+prompt eval time =   13196.22 ms /    27 tokens (  488.75 ms per token,     2.05 tokens per second)
+       eval time =  805779.59 ms /   848 tokens (  950.21 ms per token,     1.05 tokens per second)
+      total time =  818975.81 ms /   875 tokens
+slot      release: id  0 | task 0 | stop processing: n_tokens = 874, truncated = 0
+srv  update_slots: all slots are idle
+
+
+[ Prompt: 2.0 t/s | Generation: 1.1 t/s ]
+
+Exiting...
+llama_memory_breakdown_print: | memory breakdown [MiB] | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host               |                 1426 =   762 +     150 +     514       

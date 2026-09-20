@@ -1,0 +1,31 @@
+﻿llama-cli --model ~/llama.cpp/models/phi/Phi-3.5-mini-Instruct-Q4_K_M.gguf -p "what is the meaning of life" -st --log-verbosity 3 --ctx-size 12000
+
+
+The meaning of life is a philosophical question that has been debated by humans for centuries, and there is no single, universally accepted answer. Different cultures, religions, and individuals offer various interpretations and beliefs. Some common perspectives include:
+
+1. Religious and spiritual viewpoints: Many religions and spiritual beliefs suggest that life's meaning is to serve a higher power or to fulfill a divine plan or purpose. For example, in Christianity, the meaning of life is often described as glorifying God and living according to His will. In Buddhism, the aim is to achieve enlightenment and liberation from the cycle of rebirth through the Eightfold Path.
+
+2. Existentialist philosophy: Philosophers like Jean-Paul Sartre and Albert Camus argue that life has no inherent meaning and it's up to each individual to create their own purpose through their choices and actions. Existentialists assert that people must define their own essence through their existence.
+
+3. Humanistic perspective: This approach emphasizes the importance of human beings and their potential for growth, compassion, and achievement. It suggests that the purpose of life is to seek personal fulfillment, improve oneself, contribute to society, and live a life of ethical and moral integrity.
+
+4. Scientific perspective: From a scientific standpoint, life can be seen as a product of biological and evolutionary processes, where survival and reproduction are the primary drives for species.
+
+5. Personal and subjective meaning: Some people find meaning in life through personal experiences, relationships, and passions. This could be achieving personal goals, raising a family, contributing to society, or enjoying personal fulfillment and happiness.
+
+6. Philosophical and moral frameworks: Philosophers and moral thinkers like Aristotle and Immanuel Kant have proposed that the purpose of life is to live a virtuous and ethical life, striving to achieve a state of eudaimonia (flourishing) or acting in accordance with moral duty, respectively.
+
+Ultimately, the meaning of life can be a deeply personal quest, shaped by one's experiences, values, beliefs, and aspirations. It's a question that invites introspection and self-discovery, and might evolve over time as people grow and learn.slot print_timing: id  0 | task 0 | 
+prompt eval time =   56306.77 ms /    15 tokens ( 3753.78 ms per token,     0.27 tokens per second)
+       eval time = 3269034.85 ms /   513 tokens ( 6372.39 ms per token,     0.16 tokens per second)
+      total time = 3325341.62 ms /   528 tokens
+slot      release: id  0 | task 0 | stop processing: n_tokens = 527, truncated = 0
+srv  update_slots: all slots are idle
+
+
+[ Prompt: 0.3 t/s | Generation: 0.2 t/s ]
+
+Exiting...
+llama_memory_breakdown_print: | memory breakdown [MiB] | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host               |                 6872 =  2281 +    4512 +      79                |
+

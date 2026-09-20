@@ -1,0 +1,1 @@
+﻿llama-cli --model ~/llama.cpp/models/qwen/Qwen3-1.7B-Q4_K_M.gguf -p "what is the meaning of life" -st --log-verbosity 3

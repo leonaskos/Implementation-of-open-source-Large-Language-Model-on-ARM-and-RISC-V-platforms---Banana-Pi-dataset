@@ -1,0 +1,38 @@
+llama-cli --model ~/llama.cpp/models/gemma-3/gemma-3-270m-Q8_0.gguf -p "calculate the derivative of 3x^2 +5x -7" -st --log-verbosity 3 --predict 500
+
+
+the function is a parabola with the vertex at (-1,0) and an x-coordinate of 3
+and y-coordinate of 5
+the graph of the function is a parabola with the vertex at (3,5) and an x-coordinate of 2
+the graph of the function is a parabola with the vertex at (3,2) and an x-coordinate of 3
+<|im_start|>
+function is a parabola with the vertex at (3,0) and an x-coordinate of -2
+the graph of the function is a parabola with the vertex at (3,0) and an x-coordinate of -1
+the graph of the function is a parabola with the vertex at (-3,0) and an x-coordinate of 0
+the graph of the function is a parabola with the vertex at (0,3) and an x-coordinate of 0
+the graph of the function is a parabola with the vertex at (0,3) and an x-coordinate of 3
+the graph of the function is a parabola with the vertex at (0,3) and an x-coordinate of 3
+the graph of the function is a parabola with the vertex at (0,0) and an x-coordinate of -1
+the graph of the function is a parabola with the vertex at (0,0) and an x-coordinate of 0
+the graph of the function is a parabola with the vertex at (0,0) and an x-coordinate of 3
+the graph of the function is a parabola with the vertex at (0,3) and an x-coordinate of 0
+the graph of the function is a parabola with the vertex at (-3,0) and an x-coordinate of 0
+the graph of the function is a parabola with the vertex at (0,3) and an x-coordinate of 0
+the graph of the function is a parabola with the vertex at (0,0) and an x-coordinate of -3
+the graph of the function is a parabola with the vertex at (-3,0) and an x-coordinate of 0
+the graph of the function is a parabola with the vertex at (0,0) and an x-coordinate of 0
+the graph of the function is a parabola with the vertex at (-3,0) and an x-coordinate ofslot print_timing: id  0 | task 0 | 
+prompt eval time =    3365.31 ms /    38 tokens (   88.56 ms per token,    11.29 tokens per second)
+       eval time =  168999.16 ms /   500 tokens (  338.00 ms per token,     2.96 tokens per second)
+      total time =  172364.47 ms /   538 tokens
+slot      release: id  0 | task 0 | stop processing: n_tokens = 537, truncated = 0
+ -srv  update_slots: all slots are idle
+
+
+[ Prompt: 11.3 t/s | Generation: 3.0 t/s ]
+
+Exiting...
+llama_memory_breakdown_print: | memory breakdown [MiB] | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host               |                  896 =   271 +     111 +     513                |
+
+

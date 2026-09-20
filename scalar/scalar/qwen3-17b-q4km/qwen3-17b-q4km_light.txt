@@ -1,0 +1,1 @@
+﻿llama-cli --model ~/llama.cpp/models/qwen/Qwen3-1.7B-Q4_K_M.gguf -p "hello welcome to my banana pi board" -st --log-verbosity 3

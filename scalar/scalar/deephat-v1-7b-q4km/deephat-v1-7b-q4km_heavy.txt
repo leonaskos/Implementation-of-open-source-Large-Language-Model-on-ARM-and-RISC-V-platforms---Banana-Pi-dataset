@@ -1,0 +1,23 @@
+llama-cli --model ~/llama.cpp/models/deephat/DeepHat-V1-7B-Q4_K_M.gguf -p "what is the meaning of life" -st --log-verbosity 3
+
+The meaning of life is often subjective and can vary widely among individuals. However, many people find fulfillment in various pursuits such as family, career, personal growth, helping others, creative endeavors, spiritual fulfillment, and contributing to society positively. The key is to find what resonates personally with you.
+
+Some philosophical interpretations include:
+- Existentialism: Life is meaningless until given purpose by the individual
+- Buddhism: Life is an opportunity to practice compassion and enlightenment
+- Stoicism: Life is about virtue, self-control, and acceptance of fate
+
+Finding the meaning of life is a journey of self-discovery and may evolve throughout one's life as circumstances change.slot print_timing: id  0 | task 0 | 
+prompt eval time =  676469.11 ms /   126 tokens ( 5368.80 ms per token,     0.19 tokens per second)
+       eval time =  845709.80 ms /   133 tokens ( 6358.72 ms per token,     0.16 tokens per second)
+      total time = 1522178.91 ms /   259 tokens
+slot      release: id  0 | task 0 | stop processing: n_tokens = 258, truncated = 0
+srv  update_slots: all slots are idle
+
+
+[ Prompt: 0.2 t/s | Generation: 0.2 t/s ]
+
+Exiting...
+llama_memory_breakdown_print: | memory breakdown [MiB] | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host               |                 7254 =  5073 +    1792 +     389                |
+

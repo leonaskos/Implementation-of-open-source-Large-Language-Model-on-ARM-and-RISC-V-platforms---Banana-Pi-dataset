@@ -1,0 +1,14 @@
+﻿llama-cli --model ~/llama.cpp/models/smollm/smollm2-1.7b-instruct-q4_k_m.gguf -p "hello welcome to my banana pi board" -st --log-verbosity 3
+
+Hello! Welcome to my Banana Pi board! I'm glad you're interested in learning more about it. What would you like to know about this board?slot print_timing: id  0 | task 0 | 
+prompt eval time =   44879.99 ms /    37 tokens ( 1212.97 ms per token,     0.82 tokens per second)
+       eval time =   44697.41 ms /    33 tokens ( 1354.47 ms per token,     0.74 tokens per second)
+      total time =   89577.40 ms /    70 tokens
+
+
+[ Prompt: 0.8 t/s | Generation: 0.7 t/s ]
+
+Exiting...
+llama_memory_breakdown_print: | memory breakdown [MiB] | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - Host               |                 2641 =  1005 +    1536 +     100                |
+
